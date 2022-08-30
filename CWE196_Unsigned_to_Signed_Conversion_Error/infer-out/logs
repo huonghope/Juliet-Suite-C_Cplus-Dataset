@@ -1,0 +1,907 @@
+[34789][      debug] Loading models took 158ms
+[34789][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34789][environment] No .inferconfig file found
+[34789][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34789][environment] INFER_ARGS =   @/tmp/args.tmp.3ac466
+[34789][environment] command line arguments:   infer -j 1 -- make
+[34789][environment] Available memory at startup: 1196 MB
+[34789][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[34789][environment] Scheduler: file
+[34789][environment] Cores used: 1
+[34789][environment] Infer version v1.1.0
+[34789][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[34789][environment] 
+[34789][   progress] Capturing in make/cc mode...
+[34789][environment] Running command make with env:
+[34789][environment] (Extend((PATH /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/wrappers:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin)(INFER_OLD_PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin)))
+[34789][environment] 
+
+[34791][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34791][environment] No .inferconfig file found
+[34791][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34791][environment] INFER_ARGS =   @/tmp/args.tmp.60234a
+[34791][environment] command line arguments:   gcc -c -I ../../src/testcasesupport main_linux.cpp
+[34791][environment]                           -o main_linux.o
+[34791][environment] Available memory at startup: 1162 MB
+[34791][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[34791][      debug] 
+[34791][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error/main_linux.cpp ***
+[34791][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[34791][      debug] Elapsed: 231ms.
+[34791][      debug] GC stats for capture:
+[34791][      debug]   minor_words: 4.31425e+06
+[34791][      debug]   promoted_words: 474453
+[34791][      debug]   major_words: 500461
+[34791][      debug]   minor_collections: 4
+[34791][      debug]   major_collections: 0
+[34791][      debug]   compactions: 0
+[34791][      debug]   top_heap_words: 760832
+[34791][      debug]   
+[34791][      debug] GC stats for main_process_full:
+[34791][      debug]   minor_words: 5.70634e+06
+[34791][      debug]   promoted_words: 642333
+[34791][      debug]   major_words: 688993
+[34791][      debug]   minor_collections: 18
+[34791][      debug]   major_collections: 4
+[34791][      debug]   compactions: 1
+[34791][      debug]   top_heap_words: 760832
+[34791][      debug]   
+[34791][environment] Scheduler: file
+[34791][environment] Cores used: 1
+[34791][environment] 
+[34796][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34796][environment] No .inferconfig file found
+[34796][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34796][environment] INFER_ARGS =   @/tmp/args.tmp.874e4e
+[34796][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[34796][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_01.c
+[34796][environment]                           -o
+[34796][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_01.o
+[34796][environment] Available memory at startup: 1162 MB
+[34796][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[34796][      debug] 
+[34796][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error/CWE196_Unsigned_to_Signed_Conversion_Error__basic_01.c ***
+[34796][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[34796][      debug] Elapsed: 163ms.
+[34796][      debug] GC stats for capture:
+[34796][      debug]   minor_words: 2.77035e+06
+[34796][      debug]   promoted_words: 367022
+[34796][      debug]   major_words: 385490
+[34796][      debug]   minor_collections: 4
+[34796][      debug]   major_collections: 0
+[34796][      debug]   compactions: 0
+[34796][      debug]   top_heap_words: 574976
+[34796][      debug]   
+[34796][      debug] GC stats for main_process_full:
+[34796][      debug]   minor_words: 4.16249e+06
+[34796][      debug]   promoted_words: 534922
+[34796][      debug]   major_words: 574042
+[34796][      debug]   minor_collections: 18
+[34796][      debug]   major_collections: 4
+[34796][      debug]   compactions: 1
+[34796][      debug]   top_heap_words: 574976
+[34796][      debug]   
+[34796][environment] Scheduler: file
+[34796][environment] Cores used: 1
+[34796][environment] 
+[34801][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34801][environment] No .inferconfig file found
+[34801][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34801][environment] INFER_ARGS =   @/tmp/args.tmp.a4346a
+[34801][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[34801][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_02.c
+[34801][environment]                           -o
+[34801][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_02.o
+[34801][environment] Available memory at startup: 1161 MB
+[34801][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[34801][      debug] 
+[34801][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error/CWE196_Unsigned_to_Signed_Conversion_Error__basic_02.c ***
+[34801][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[34801][      debug] Elapsed: 154ms.
+[34801][      debug] GC stats for capture:
+[34801][      debug]   minor_words: 2.91327e+06
+[34801][      debug]   promoted_words: 370910
+[34801][      debug]   major_words: 389887
+[34801][      debug]   minor_collections: 4
+[34801][      debug]   major_collections: 0
+[34801][      debug]   compactions: 0
+[34801][      debug]   top_heap_words: 574976
+[34801][      debug]   
+[34801][      debug] GC stats for main_process_full:
+[34801][      debug]   minor_words: 4.30541e+06
+[34801][      debug]   promoted_words: 538810
+[34801][      debug]   major_words: 578439
+[34801][      debug]   minor_collections: 18
+[34801][      debug]   major_collections: 4
+[34801][      debug]   compactions: 1
+[34801][      debug]   top_heap_words: 574976
+[34801][      debug]   
+[34801][environment] Scheduler: file
+[34801][environment] Cores used: 1
+[34801][environment] 
+[34806][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34806][environment] No .inferconfig file found
+[34806][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34806][environment] INFER_ARGS =   @/tmp/args.tmp.6800cc
+[34806][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[34806][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_03.c
+[34806][environment]                           -o
+[34806][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_03.o
+[34806][environment] Available memory at startup: 1161 MB
+[34806][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[34806][      debug] 
+[34806][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error/CWE196_Unsigned_to_Signed_Conversion_Error__basic_03.c ***
+[34806][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[34806][      debug] Elapsed: 143ms.
+[34806][      debug] GC stats for capture:
+[34806][      debug]   minor_words: 2.91897e+06
+[34806][      debug]   promoted_words: 371201
+[34806][      debug]   major_words: 390181
+[34806][      debug]   minor_collections: 4
+[34806][      debug]   major_collections: 0
+[34806][      debug]   compactions: 0
+[34806][      debug]   top_heap_words: 574976
+[34806][      debug]   
+[34806][      debug] GC stats for main_process_full:
+[34806][      debug]   minor_words: 4.31111e+06
+[34806][      debug]   promoted_words: 539101
+[34806][      debug]   major_words: 578733
+[34806][      debug]   minor_collections: 18
+[34806][      debug]   major_collections: 4
+[34806][      debug]   compactions: 1
+[34806][      debug]   top_heap_words: 574976
+[34806][      debug]   
+[34806][environment] Scheduler: file
+[34806][environment] Cores used: 1
+[34806][environment] 
+[34811][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34811][environment] No .inferconfig file found
+[34811][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34811][environment] INFER_ARGS =   @/tmp/args.tmp.4cbba4
+[34811][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[34811][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_04.c
+[34811][environment]                           -o
+[34811][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_04.o
+[34811][environment] Available memory at startup: 1162 MB
+[34811][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[34811][      debug] 
+[34811][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error/CWE196_Unsigned_to_Signed_Conversion_Error__basic_04.c ***
+[34811][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[34811][      debug] Elapsed: 149ms.
+[34811][      debug] GC stats for capture:
+[34811][      debug]   minor_words: 2.94654e+06
+[34811][      debug]   promoted_words: 371465
+[34811][      debug]   major_words: 390489
+[34811][      debug]   minor_collections: 4
+[34811][      debug]   major_collections: 0
+[34811][      debug]   compactions: 0
+[34811][      debug]   top_heap_words: 574976
+[34811][      debug]   
+[34811][      debug] GC stats for main_process_full:
+[34811][      debug]   minor_words: 4.33868e+06
+[34811][      debug]   promoted_words: 539365
+[34811][      debug]   major_words: 579041
+[34811][      debug]   minor_collections: 18
+[34811][      debug]   major_collections: 4
+[34811][      debug]   compactions: 1
+[34811][      debug]   top_heap_words: 574976
+[34811][      debug]   
+[34811][environment] Scheduler: file
+[34811][environment] Cores used: 1
+[34811][environment] 
+[34816][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34816][environment] No .inferconfig file found
+[34816][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34816][environment] INFER_ARGS =   @/tmp/args.tmp.a5aeb2
+[34816][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[34816][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_05.c
+[34816][environment]                           -o
+[34816][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_05.o
+[34816][environment] Available memory at startup: 1162 MB
+[34816][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[34816][      debug] 
+[34816][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error/CWE196_Unsigned_to_Signed_Conversion_Error__basic_05.c ***
+[34816][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[34816][      debug] Elapsed: 148ms.
+[34816][      debug] GC stats for capture:
+[34816][      debug]   minor_words: 2.94648e+06
+[34816][      debug]   promoted_words: 371455
+[34816][      debug]   major_words: 390477
+[34816][      debug]   minor_collections: 4
+[34816][      debug]   major_collections: 0
+[34816][      debug]   compactions: 0
+[34816][      debug]   top_heap_words: 574976
+[34816][      debug]   
+[34816][      debug] GC stats for main_process_full:
+[34816][      debug]   minor_words: 4.33862e+06
+[34816][      debug]   promoted_words: 539355
+[34816][      debug]   major_words: 579029
+[34816][      debug]   minor_collections: 18
+[34816][      debug]   major_collections: 4
+[34816][      debug]   compactions: 1
+[34816][      debug]   top_heap_words: 574976
+[34816][      debug]   
+[34816][environment] Scheduler: file
+[34816][environment] Cores used: 1
+[34816][environment] 
+[34821][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34821][environment] No .inferconfig file found
+[34821][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34821][environment] INFER_ARGS =   @/tmp/args.tmp.adfece
+[34821][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[34821][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_06.c
+[34821][environment]                           -o
+[34821][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_06.o
+[34821][environment] Available memory at startup: 1162 MB
+[34821][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[34821][      debug] 
+[34821][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error/CWE196_Unsigned_to_Signed_Conversion_Error__basic_06.c ***
+[34821][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[34821][      debug] Elapsed: 144ms.
+[34821][      debug] GC stats for capture:
+[34821][      debug]   minor_words: 2.944e+06
+[34821][      debug]   promoted_words: 371658
+[34821][      debug]   major_words: 390720
+[34821][      debug]   minor_collections: 4
+[34821][      debug]   major_collections: 0
+[34821][      debug]   compactions: 0
+[34821][      debug]   top_heap_words: 574976
+[34821][      debug]   
+[34821][      debug] GC stats for main_process_full:
+[34821][      debug]   minor_words: 4.33615e+06
+[34821][      debug]   promoted_words: 539558
+[34821][      debug]   major_words: 579272
+[34821][      debug]   minor_collections: 18
+[34821][      debug]   major_collections: 4
+[34821][      debug]   compactions: 1
+[34821][      debug]   top_heap_words: 574976
+[34821][      debug]   
+[34821][environment] Scheduler: file
+[34821][environment] Cores used: 1
+[34821][environment] 
+[34826][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34826][environment] No .inferconfig file found
+[34826][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34826][environment] INFER_ARGS =   @/tmp/args.tmp.b07ed0
+[34826][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[34826][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_07.c
+[34826][environment]                           -o
+[34826][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_07.o
+[34826][environment] Available memory at startup: 1161 MB
+[34826][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[34826][      debug] 
+[34826][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error/CWE196_Unsigned_to_Signed_Conversion_Error__basic_07.c ***
+[34826][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[34826][      debug] Elapsed: 145ms.
+[34826][      debug] GC stats for capture:
+[34826][      debug]   minor_words: 2.94396e+06
+[34826][      debug]   promoted_words: 371650
+[34826][      debug]   major_words: 390709
+[34826][      debug]   minor_collections: 4
+[34826][      debug]   major_collections: 0
+[34826][      debug]   compactions: 0
+[34826][      debug]   top_heap_words: 574976
+[34826][      debug]   
+[34826][      debug] GC stats for main_process_full:
+[34826][      debug]   minor_words: 4.33611e+06
+[34826][      debug]   promoted_words: 539550
+[34826][      debug]   major_words: 579261
+[34826][      debug]   minor_collections: 18
+[34826][      debug]   major_collections: 4
+[34826][      debug]   compactions: 1
+[34826][      debug]   top_heap_words: 574976
+[34826][      debug]   
+[34826][environment] Scheduler: file
+[34826][environment] Cores used: 1
+[34826][environment] 
+[34831][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34831][environment] No .inferconfig file found
+[34831][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34831][environment] INFER_ARGS =   @/tmp/args.tmp.39d5e1
+[34831][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[34831][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_08.c
+[34831][environment]                           -o
+[34831][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_08.o
+[34831][environment] Available memory at startup: 1161 MB
+[34831][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[34831][      debug] 
+[34831][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error/CWE196_Unsigned_to_Signed_Conversion_Error__basic_08.c ***
+[34831][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[34831][      debug] Elapsed: 154ms.
+[34831][      debug] GC stats for capture:
+[34831][      debug]   minor_words: 2.96129e+06
+[34831][      debug]   promoted_words: 371722
+[34831][      debug]   major_words: 390779
+[34831][      debug]   minor_collections: 4
+[34831][      debug]   major_collections: 0
+[34831][      debug]   compactions: 0
+[34831][      debug]   top_heap_words: 574976
+[34831][      debug]   
+[34831][      debug] GC stats for main_process_full:
+[34831][      debug]   minor_words: 4.35343e+06
+[34831][      debug]   promoted_words: 539622
+[34831][      debug]   major_words: 579331
+[34831][      debug]   minor_collections: 18
+[34831][      debug]   major_collections: 4
+[34831][      debug]   compactions: 1
+[34831][      debug]   top_heap_words: 574976
+[34831][      debug]   
+[34831][environment] Scheduler: file
+[34831][environment] Cores used: 1
+[34831][environment] 
+[34836][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34836][environment] No .inferconfig file found
+[34836][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34836][environment] INFER_ARGS =   @/tmp/args.tmp.585772
+[34836][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[34836][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_09.c
+[34836][environment]                           -o
+[34836][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_09.o
+[34836][environment] Available memory at startup: 1161 MB
+[34836][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[34836][      debug] 
+[34836][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error/CWE196_Unsigned_to_Signed_Conversion_Error__basic_09.c ***
+[34836][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[34836][      debug] Elapsed: 129ms.
+[34836][      debug] GC stats for capture:
+[34836][      debug]   minor_words: 2.93164e+06
+[34836][      debug]   promoted_words: 371233
+[34836][      debug]   major_words: 390253
+[34836][      debug]   minor_collections: 4
+[34836][      debug]   major_collections: 0
+[34836][      debug]   compactions: 0
+[34836][      debug]   top_heap_words: 574976
+[34836][      debug]   
+[34836][      debug] GC stats for main_process_full:
+[34836][      debug]   minor_words: 4.32378e+06
+[34836][      debug]   promoted_words: 539133
+[34836][      debug]   major_words: 578805
+[34836][      debug]   minor_collections: 18
+[34836][      debug]   major_collections: 4
+[34836][      debug]   compactions: 1
+[34836][      debug]   top_heap_words: 574976
+[34836][      debug]   
+[34836][environment] Scheduler: file
+[34836][environment] Cores used: 1
+[34836][environment] 
+[34841][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34841][environment] No .inferconfig file found
+[34841][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34841][environment] INFER_ARGS =   @/tmp/args.tmp.afcfdf
+[34841][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[34841][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_10.c
+[34841][environment]                           -o
+[34841][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_10.o
+[34841][environment] Available memory at startup: 1160 MB
+[34841][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[34841][      debug] 
+[34841][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error/CWE196_Unsigned_to_Signed_Conversion_Error__basic_10.c ***
+[34841][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[34841][      debug] Elapsed: 165ms.
+[34841][      debug] GC stats for capture:
+[34841][      debug]   minor_words: 2.93162e+06
+[34841][      debug]   promoted_words: 371227
+[34841][      debug]   major_words: 390245
+[34841][      debug]   minor_collections: 4
+[34841][      debug]   major_collections: 0
+[34841][      debug]   compactions: 0
+[34841][      debug]   top_heap_words: 574976
+[34841][      debug]   
+[34841][      debug] GC stats for main_process_full:
+[34841][      debug]   minor_words: 4.32376e+06
+[34841][      debug]   promoted_words: 539127
+[34841][      debug]   major_words: 578797
+[34841][      debug]   minor_collections: 18
+[34841][      debug]   major_collections: 4
+[34841][      debug]   compactions: 1
+[34841][      debug]   top_heap_words: 574976
+[34841][      debug]   
+[34841][environment] Scheduler: file
+[34841][environment] Cores used: 1
+[34841][environment] 
+[34846][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34846][environment] No .inferconfig file found
+[34846][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34846][environment] INFER_ARGS =   @/tmp/args.tmp.55c091
+[34846][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[34846][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_11.c
+[34846][environment]                           -o
+[34846][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_11.o
+[34846][environment] Available memory at startup: 1161 MB
+[34846][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[34846][      debug] 
+[34846][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error/CWE196_Unsigned_to_Signed_Conversion_Error__basic_11.c ***
+[34846][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[34846][      debug] Elapsed: 217ms.
+[34846][      debug] GC stats for capture:
+[34846][      debug]   minor_words: 2.93455e+06
+[34846][      debug]   promoted_words: 371340
+[34846][      debug]   major_words: 390381
+[34846][      debug]   minor_collections: 4
+[34846][      debug]   major_collections: 0
+[34846][      debug]   compactions: 0
+[34846][      debug]   top_heap_words: 574976
+[34846][      debug]   
+[34846][      debug] GC stats for main_process_full:
+[34846][      debug]   minor_words: 4.32669e+06
+[34846][      debug]   promoted_words: 539240
+[34846][      debug]   major_words: 578933
+[34846][      debug]   minor_collections: 18
+[34846][      debug]   major_collections: 4
+[34846][      debug]   compactions: 1
+[34846][      debug]   top_heap_words: 574976
+[34846][      debug]   
+[34846][environment] Scheduler: file
+[34846][environment] Cores used: 1
+[34846][environment] 
+[34851][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34851][environment] No .inferconfig file found
+[34851][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34851][environment] INFER_ARGS =   @/tmp/args.tmp.99abbe
+[34851][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[34851][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_12.c
+[34851][environment]                           -o
+[34851][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_12.o
+[34851][environment] Available memory at startup: 1162 MB
+[34851][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[34851][      debug] 
+[34851][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error/CWE196_Unsigned_to_Signed_Conversion_Error__basic_12.c ***
+[34851][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[34851][      debug] Elapsed: 174ms.
+[34851][      debug] GC stats for capture:
+[34851][      debug]   minor_words: 2.98189e+06
+[34851][      debug]   promoted_words: 373348
+[34851][      debug]   major_words: 392589
+[34851][      debug]   minor_collections: 4
+[34851][      debug]   major_collections: 0
+[34851][      debug]   compactions: 0
+[34851][      debug]   top_heap_words: 574976
+[34851][      debug]   
+[34851][      debug] GC stats for main_process_full:
+[34851][      debug]   minor_words: 4.37404e+06
+[34851][      debug]   promoted_words: 541248
+[34851][      debug]   major_words: 581141
+[34851][      debug]   minor_collections: 18
+[34851][      debug]   major_collections: 4
+[34851][      debug]   compactions: 1
+[34851][      debug]   top_heap_words: 574976
+[34851][      debug]   
+[34851][environment] Scheduler: file
+[34851][environment] Cores used: 1
+[34851][environment] 
+[34856][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34856][environment] No .inferconfig file found
+[34856][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34856][environment] INFER_ARGS =   @/tmp/args.tmp.82de07
+[34856][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[34856][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_13.c
+[34856][environment]                           -o
+[34856][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_13.o
+[34856][environment] Available memory at startup: 1160 MB
+[34856][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[34856][      debug] 
+[34856][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error/CWE196_Unsigned_to_Signed_Conversion_Error__basic_13.c ***
+[34856][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[34856][      debug] Elapsed: 145ms.
+[34856][      debug] GC stats for capture:
+[34856][      debug]   minor_words: 2.93882e+06
+[34856][      debug]   promoted_words: 371560
+[34856][      debug]   major_words: 390619
+[34856][      debug]   minor_collections: 4
+[34856][      debug]   major_collections: 0
+[34856][      debug]   compactions: 0
+[34856][      debug]   top_heap_words: 574976
+[34856][      debug]   
+[34856][      debug] GC stats for main_process_full:
+[34856][      debug]   minor_words: 4.33096e+06
+[34856][      debug]   promoted_words: 539460
+[34856][      debug]   major_words: 579171
+[34856][      debug]   minor_collections: 18
+[34856][      debug]   major_collections: 4
+[34856][      debug]   compactions: 1
+[34856][      debug]   top_heap_words: 574976
+[34856][      debug]   
+[34856][environment] Scheduler: file
+[34856][environment] Cores used: 1
+[34856][environment] 
+[34861][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34861][environment] No .inferconfig file found
+[34861][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34861][environment] INFER_ARGS =   @/tmp/args.tmp.be03bc
+[34861][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[34861][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_14.c
+[34861][environment]                           -o
+[34861][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_14.o
+[34861][environment] Available memory at startup: 1159 MB
+[34861][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[34861][      debug] 
+[34861][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error/CWE196_Unsigned_to_Signed_Conversion_Error__basic_14.c ***
+[34861][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[34861][      debug] Elapsed: 149ms.
+[34861][      debug] GC stats for capture:
+[34861][      debug]   minor_words: 2.93878e+06
+[34861][      debug]   promoted_words: 371554
+[34861][      debug]   major_words: 390611
+[34861][      debug]   minor_collections: 4
+[34861][      debug]   major_collections: 0
+[34861][      debug]   compactions: 0
+[34861][      debug]   top_heap_words: 574976
+[34861][      debug]   
+[34861][      debug] GC stats for main_process_full:
+[34861][      debug]   minor_words: 4.33092e+06
+[34861][      debug]   promoted_words: 539454
+[34861][      debug]   major_words: 579163
+[34861][      debug]   minor_collections: 18
+[34861][      debug]   major_collections: 4
+[34861][      debug]   compactions: 1
+[34861][      debug]   top_heap_words: 574976
+[34861][      debug]   
+[34861][environment] Scheduler: file
+[34861][environment] Cores used: 1
+[34861][environment] 
+[34866][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34866][environment] No .inferconfig file found
+[34866][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34866][environment] INFER_ARGS =   @/tmp/args.tmp.868114
+[34866][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[34866][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_15.c
+[34866][environment]                           -o
+[34866][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_15.o
+[34866][environment] Available memory at startup: 1158 MB
+[34866][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[34866][      debug] 
+[34866][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error/CWE196_Unsigned_to_Signed_Conversion_Error__basic_15.c ***
+[34866][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[34866][      debug] Elapsed: 147ms.
+[34866][      debug] GC stats for capture:
+[34866][      debug]   minor_words: 2.94688e+06
+[34866][      debug]   promoted_words: 372255
+[34866][      debug]   major_words: 391269
+[34866][      debug]   minor_collections: 4
+[34866][      debug]   major_collections: 0
+[34866][      debug]   compactions: 0
+[34866][      debug]   top_heap_words: 574976
+[34866][      debug]   
+[34866][      debug] GC stats for main_process_full:
+[34866][      debug]   minor_words: 4.33902e+06
+[34866][      debug]   promoted_words: 540155
+[34866][      debug]   major_words: 579821
+[34866][      debug]   minor_collections: 18
+[34866][      debug]   major_collections: 4
+[34866][      debug]   compactions: 1
+[34866][      debug]   top_heap_words: 574976
+[34866][      debug]   
+[34866][environment] Scheduler: file
+[34866][environment] Cores used: 1
+[34866][environment] 
+[34871][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34871][environment] No .inferconfig file found
+[34871][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34871][environment] INFER_ARGS =   @/tmp/args.tmp.048a07
+[34871][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[34871][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_16.c
+[34871][environment]                           -o
+[34871][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_16.o
+[34871][environment] Available memory at startup: 1157 MB
+[34871][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[34871][      debug] 
+[34871][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error/CWE196_Unsigned_to_Signed_Conversion_Error__basic_16.c ***
+[34871][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[34871][      debug] Elapsed: 138ms.
+[34871][      debug] GC stats for capture:
+[34871][      debug]   minor_words: 2.78352e+06
+[34871][      debug]   promoted_words: 367351
+[34871][      debug]   major_words: 385885
+[34871][      debug]   minor_collections: 4
+[34871][      debug]   major_collections: 0
+[34871][      debug]   compactions: 0
+[34871][      debug]   top_heap_words: 574976
+[34871][      debug]   
+[34871][      debug] GC stats for main_process_full:
+[34871][      debug]   minor_words: 4.17567e+06
+[34871][      debug]   promoted_words: 535251
+[34871][      debug]   major_words: 574437
+[34871][      debug]   minor_collections: 18
+[34871][      debug]   major_collections: 4
+[34871][      debug]   compactions: 1
+[34871][      debug]   top_heap_words: 574976
+[34871][      debug]   
+[34871][environment] Scheduler: file
+[34871][environment] Cores used: 1
+[34871][environment] 
+[34876][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34876][environment] No .inferconfig file found
+[34876][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34876][environment] INFER_ARGS =   @/tmp/args.tmp.78336a
+[34876][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[34876][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_17.c
+[34876][environment]                           -o
+[34876][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_17.o
+[34876][environment] Available memory at startup: 1154 MB
+[34876][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[34876][      debug] 
+[34876][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error/CWE196_Unsigned_to_Signed_Conversion_Error__basic_17.c ***
+[34876][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[34876][      debug] Elapsed: 151ms.
+[34876][      debug] GC stats for capture:
+[34876][      debug]   minor_words: 2.81413e+06
+[34876][      debug]   promoted_words: 368430
+[34876][      debug]   major_words: 387128
+[34876][      debug]   minor_collections: 4
+[34876][      debug]   major_collections: 0
+[34876][      debug]   compactions: 0
+[34876][      debug]   top_heap_words: 574976
+[34876][      debug]   
+[34876][      debug] GC stats for main_process_full:
+[34876][      debug]   minor_words: 4.20628e+06
+[34876][      debug]   promoted_words: 536330
+[34876][      debug]   major_words: 575680
+[34876][      debug]   minor_collections: 18
+[34876][      debug]   major_collections: 4
+[34876][      debug]   compactions: 1
+[34876][      debug]   top_heap_words: 574976
+[34876][      debug]   
+[34876][environment] Scheduler: file
+[34876][environment] Cores used: 1
+[34876][environment] 
+[34881][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34881][environment] No .inferconfig file found
+[34881][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34881][environment] INFER_ARGS =   @/tmp/args.tmp.367b45
+[34881][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[34881][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_18.c
+[34881][environment]                           -o
+[34881][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_18.o
+[34881][environment] Available memory at startup: 1153 MB
+[34881][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[34881][      debug] 
+[34881][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error/CWE196_Unsigned_to_Signed_Conversion_Error__basic_18.c ***
+[34881][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[34881][      debug] Elapsed: 150ms.
+[34881][      debug] GC stats for capture:
+[34881][      debug]   minor_words: 2.77762e+06
+[34881][      debug]   promoted_words: 367257
+[34881][      debug]   major_words: 385753
+[34881][      debug]   minor_collections: 4
+[34881][      debug]   major_collections: 0
+[34881][      debug]   compactions: 0
+[34881][      debug]   top_heap_words: 574976
+[34881][      debug]   
+[34881][      debug] GC stats for main_process_full:
+[34881][      debug]   minor_words: 4.16976e+06
+[34881][      debug]   promoted_words: 535157
+[34881][      debug]   major_words: 574305
+[34881][      debug]   minor_collections: 18
+[34881][      debug]   major_collections: 4
+[34881][      debug]   compactions: 1
+[34881][      debug]   top_heap_words: 574976
+[34881][      debug]   
+[34881][environment] Scheduler: file
+[34881][environment] Cores used: 1
+[34881][environment] 
+[34886][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34886][environment] No .inferconfig file found
+[34886][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34886][environment] INFER_ARGS =   @/tmp/args.tmp.048a01
+[34886][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[34886][environment]                           ../../src/testcasesupport/io.c -o io.o
+[34886][environment] Available memory at startup: 1152 MB
+[34886][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[34886][      debug] 
+[34886][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/src/testcasesupport/io.c ***
+[34886][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[34886][      debug] Elapsed: 316ms.
+[34886][      debug] GC stats for capture:
+[34886][      debug]   minor_words: 4.17599e+06
+[34886][      debug]   promoted_words: 511955
+[34886][      debug]   major_words: 537032
+[34886][      debug]   minor_collections: 6
+[34886][      debug]   major_collections: 1
+[34886][      debug]   compactions: 0
+[34886][      debug]   top_heap_words: 760832
+[34886][      debug]   
+[34886][      debug] GC stats for main_process_full:
+[34886][      debug]   minor_words: 5.56808e+06
+[34886][      debug]   promoted_words: 679837
+[34886][      debug]   major_words: 725566
+[34886][      debug]   minor_collections: 20
+[34886][      debug]   major_collections: 5
+[34886][      debug]   compactions: 1
+[34886][      debug]   top_heap_words: 760832
+[34886][      debug]   
+[34886][environment] Scheduler: file
+[34886][environment] Cores used: 1
+[34886][environment] 
+[34891][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34891][environment] No .inferconfig file found
+[34891][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34891][environment] INFER_ARGS =   @/tmp/args.tmp.7b68c3
+[34891][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[34891][environment]                           ../../src/testcasesupport/std_thread.c -o
+[34891][environment]                           std_thread.o
+[34891][environment] Available memory at startup: 1148 MB
+[34891][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[34891][      debug] 
+[34891][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/src/testcasesupport/std_thread.c ***
+[34891][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[34891][      debug] Elapsed: 189ms.
+[34891][      debug] GC stats for capture:
+[34891][      debug]   minor_words: 3.62422e+06
+[34891][      debug]   promoted_words: 452856
+[34891][      debug]   major_words: 475828
+[34891][      debug]   minor_collections: 5
+[34891][      debug]   major_collections: 0
+[34891][      debug]   compactions: 0
+[34891][      debug]   top_heap_words: 661504
+[34891][      debug]   
+[34891][      debug] GC stats for main_process_full:
+[34891][      debug]   minor_words: 5.01632e+06
+[34891][      debug]   promoted_words: 620742
+[34891][      debug]   major_words: 664366
+[34891][      debug]   minor_collections: 19
+[34891][      debug]   major_collections: 4
+[34891][      debug]   compactions: 1
+[34891][      debug]   top_heap_words: 661504
+[34891][      debug]   
+[34891][environment] Scheduler: file
+[34891][environment] Cores used: 1
+[34891][environment] 
+[34896][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34896][environment] No .inferconfig file found
+[34896][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error
+[34896][environment] INFER_ARGS =   @/tmp/args.tmp.e26ab3
+[34896][environment] command line arguments:   g++ -pthread -lm main_linux.o
+[34896][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_01.o
+[34896][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_02.o
+[34896][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_03.o
+[34896][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_04.o
+[34896][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_05.o
+[34896][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_06.o
+[34896][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_07.o
+[34896][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_08.o
+[34896][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_09.o
+[34896][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_10.o
+[34896][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_11.o
+[34896][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_12.o
+[34896][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_13.o
+[34896][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_14.o
+[34896][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_15.o
+[34896][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_16.o
+[34896][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_17.o
+[34896][environment]                           CWE196_Unsigned_to_Signed_Conversion_Error__basic_18.o
+[34896][environment]                           io.o std_thread.o -o ../../build/CWE196
+[34896][environment] Available memory at startup: 1146 MB
+[34896][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[34896][      debug] GC stats for capture:
+[34896][      debug]   minor_words: 9573
+[34896][      debug]   promoted_words: 0
+[34896][      debug]   major_words: 0
+[34896][      debug]   minor_collections: 0
+[34896][      debug]   major_collections: 0
+[34896][      debug]   compactions: 0
+[34896][      debug]   top_heap_words: 188416
+[34896][      debug]   
+[34896][      debug] GC stats for main_process_full:
+[34896][      debug]   minor_words: 1.40506e+06
+[34896][      debug]   promoted_words: 168245
+[34896][      debug]   major_words: 188897
+[34896][      debug]   minor_collections: 14
+[34896][      debug]   major_collections: 4
+[34896][      debug]   compactions: 1
+[34896][      debug]   top_heap_words: 188416
+[34896][      debug]   
+[34896][environment] Scheduler: file
+[34896][environment] Cores used: 1
+[34896][environment] [34789][      debug] GC stats for capture:
+[34789][      debug]   minor_words: 1490
+[34789][      debug]   promoted_words: 0
+[34789][      debug]   major_words: 0
+[34789][      debug]   minor_collections: 0
+[34789][      debug]   major_collections: 0
+[34789][      debug]   compactions: 0
+[34789][      debug]   top_heap_words: 760832
+[34789][      debug]   
+[34789][   progress] Found 21 source files to analyze in /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE196_Unsigned_to_Signed_Conversion_Error/infer-out
+[34789][   progress] /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/src/testcasesupport/io.c starting
+[34789][   progress] /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/src/testcasesupport/io.c DONE
+[34789][   progress] /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/src/testcasesupport/std_thread.c starting
+[34789][   progress] /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/src/testcasesupport/std_thread.c DONE
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_01.c starting
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_01.c DONE
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_02.c starting
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_02.c DONE
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_03.c starting
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_03.c DONE
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_04.c starting
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_04.c DONE
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_05.c starting
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_05.c DONE
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_06.c starting
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_06.c DONE
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_07.c starting
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_07.c DONE
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_08.c starting
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_08.c DONE
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_09.c starting
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_09.c DONE
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_10.c starting
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_10.c DONE
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_11.c starting
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_11.c DONE
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_12.c starting
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_12.c DONE
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_13.c starting
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_13.c DONE
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_14.c starting
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_14.c DONE
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_15.c starting
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_15.c DONE
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_16.c starting
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_16.c DONE
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_17.c starting
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_17.c DONE
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_18.c starting
+[34789][   progress] CWE196_Unsigned_to_Signed_Conversion_Error__basic_18.c DONE
+[34789][   progress] main_linux.cpp starting
+[34789][   progress] main_linux.cpp DONE
+[34789][      debug] Backend stats:
+[34789][      debug]   summary_file_try_load= 1874
+[34789][      debug]   summary_read_from_disk= 71
+[34789][      debug]   summary_cache_hits= 4015 (68%)
+[34789][      debug]   summary_cache_misses= 1874
+[34789][      debug]   ondemand_procs_analyzed= 130
+[34789][      debug]   ondemand_local_cache_hits= 2315 (93%)
+[34789][      debug]   ondemand_local_cache_misses= 150
+[34789][      debug]   proc_locker_lock_time_user= 0.00000000
+[34789][      debug]   proc_locker_lock_time_sys= 0.00000000
+[34789][      debug]   proc_locker_lock_time_wall= 0.00000000
+[34789][      debug]   proc_locker_unlock_time_user= 0.00000000
+[34789][      debug]   proc_locker_unlock_time_sys= 0.00000000
+[34789][      debug]   proc_locker_unlock_time_wall= 0.00000000
+[34789][      debug]   restart_scheduler_useful_time_user= 0.00000000
+[34789][      debug]   restart_scheduler_useful_time_sys= 0.00000000
+[34789][      debug]   restart_scheduler_useful_time_wall= 0.00000000
+[34789][      debug]   restart_scheduler_total_time_user= 0.00000000
+[34789][      debug]   restart_scheduler_total_time_sys= 0.00000000
+[34789][      debug]   restart_scheduler_total_time_wall= 0.00000000
+[34789][      debug]   
+[34789][      debug] GC stats for backend_stats.:
+[34789][      debug]   minor_words: 6.19158e+08
+[34789][      debug]   promoted_words: 2.79221e+06
+[34789][      debug]   major_words: 3.66662e+06
+[34789][      debug]   minor_collections: 597
+[34789][      debug]   major_collections: 13
+[34789][      debug]   compactions: 0
+[34789][      debug]   top_heap_words: 1331712
+[34789][      debug]   
+[34789][      debug] Analysis phase finished in 1.777s
+[34789][      debug] backend_stats.scheduler_process_analysis_time_user= 1.29891100
+[34789][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.05766200
+[34789][      debug] backend_stats.scheduler_process_analysis_time_wall= 1.77733890
+[34789][      debug] GC stats for analysis_scheduler:
+[34789][      debug]   minor_words: 6.19166e+08
+[34789][      debug]   promoted_words: 2.79221e+06
+[34789][      debug]   major_words: 3.66714e+06
+[34789][      debug]   minor_collections: 597
+[34789][      debug]   major_collections: 13
+[34789][      debug]   compactions: 0
+[34789][      debug]   top_heap_words: 1331712
+[34789][      debug]   
+[34789][      debug] GC stats for report:
+[34789][      debug]   minor_words: 17029
+[34789][      debug]   promoted_words: 0
+[34789][      debug]   major_words: 0
+[34789][      debug]   minor_collections: 0
+[34789][      debug]   major_collections: 0
+[34789][      debug]   compactions: 0
+[34789][      debug]   top_heap_words: 1331712
+[34789][      debug]   
+[34789][      debug] GC stats for main_process_full:
+[34789][      debug]   minor_words: 6.20838e+08
+[34789][      debug]   promoted_words: 2.96004e+06
+[34789][      debug]   major_words: 4.361e+06
+[34789][      debug]   minor_collections: 611
+[34789][      debug]   major_collections: 17
+[34789][      debug]   compactions: 1
+[34789][      debug]   top_heap_words: 1331712
+[34789][      debug]   

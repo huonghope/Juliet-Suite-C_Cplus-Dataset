@@ -1,0 +1,3863 @@
+#0
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_81a.cpp:29: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  27.     char * data;
+  28.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  29.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  30.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  31.      * string copies in the sinks  */
+
+#1
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_82a.cpp:29: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  27.     char * data;
+  28.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  29.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  30.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  31.      * string copies in the sinks  */
+
+#2
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_81a.cpp:29: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  27.     char * data;
+  28.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  29.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  30.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  31.      * string copies in the sinks  */
+
+#3
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_82a.cpp:29: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  27.     char * data;
+  28.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  29.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  30.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  31.      * string copies in the sinks  */
+
+#4
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_81a.cpp:29: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  27.     char * data;
+  28.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  29.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  30.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  31.      * string copies in the sinks  */
+
+#5
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_82a.cpp:29: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  27.     char * data;
+  28.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  29.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  30.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  31.      * string copies in the sinks  */
+
+#6
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_81a.cpp:29: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  27.     char * data;
+  28.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  29.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  30.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  31.      * string copies in the sinks  */
+
+#7
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_82a.cpp:29: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  27.     char * data;
+  28.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  29.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  30.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  31.      * string copies in the sinks  */
+
+#8
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_01.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  34.      * string copies in the sinks  */
+
+#9
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_02.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     if(1)
+  34.     {
+
+#10
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_03.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     if(5==5)
+  34.     {
+
+#11
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_09.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     if(GLOBAL_CONST_TRUE)
+  34.     {
+
+#12
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_10.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     if(globalTrue)
+  34.     {
+
+#13
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_11.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     if(globalReturnsTrue())
+  34.     {
+
+#14
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_13.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     if(GLOBAL_CONST_FIVE==5)
+  34.     {
+
+#15
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_14.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     if(globalFive==5)
+  34.     {
+
+#16
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_15.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     switch(6)
+  34.     {
+
+#17
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_16.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     while(1)
+  34.     {
+
+#18
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_17.c:33: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  31.     char * data;
+  32.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  33.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  34.     for(i = 0; i < 1; i++)
+  35.     {
+
+#19
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_18.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     goto source;
+  34. source:
+
+#20
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_31.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  34.      * string copies in the sinks  */
+
+#21
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_32.c:36: error: Dead Store
+  The value written to &data (type char*) is never used.
+  34.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  35.     {
+  36.         char * data = *dataPtr1;
+              ^
+  37.         /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  38.          * string copies in the sinks  */
+
+#22
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_32.c:34: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  32.     char * *dataPtr2 = &data;
+  33.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  34.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  35.     {
+  36.         char * data = *dataPtr1;
+
+#23
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_01.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  34.      * string copies in the sinks  */
+
+#24
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_02.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     if(1)
+  34.     {
+
+#25
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_03.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     if(5==5)
+  34.     {
+
+#26
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_09.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     if(GLOBAL_CONST_TRUE)
+  34.     {
+
+#27
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_10.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     if(globalTrue)
+  34.     {
+
+#28
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_11.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     if(globalReturnsTrue())
+  34.     {
+
+#29
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_13.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     if(GLOBAL_CONST_FIVE==5)
+  34.     {
+
+#30
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_14.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     if(globalFive==5)
+  34.     {
+
+#31
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_15.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     switch(6)
+  34.     {
+
+#32
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_16.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     while(1)
+  34.     {
+
+#33
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_17.c:33: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  31.     char * data;
+  32.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  33.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  34.     for(i = 0; i < 1; i++)
+  35.     {
+
+#34
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_18.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     goto source;
+  34. source:
+
+#35
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_31.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  34.      * string copies in the sinks  */
+
+#36
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_32.c:36: error: Dead Store
+  The value written to &data (type char*) is never used.
+  34.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  35.     {
+  36.         char * data = *dataPtr1;
+              ^
+  37.         /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  38.          * string copies in the sinks  */
+
+#37
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_32.c:34: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  32.     char * *dataPtr2 = &data;
+  33.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  34.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  35.     {
+  36.         char * data = *dataPtr1;
+
+#38
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_01.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  34.      * string copies in the sinks  */
+
+#39
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_02.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     if(1)
+  34.     {
+
+#40
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_03.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     if(5==5)
+  34.     {
+
+#41
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_09.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     if(GLOBAL_CONST_TRUE)
+  34.     {
+
+#42
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_10.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     if(globalTrue)
+  34.     {
+
+#43
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_11.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     if(globalReturnsTrue())
+  34.     {
+
+#44
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_13.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     if(GLOBAL_CONST_FIVE==5)
+  34.     {
+
+#45
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_14.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     if(globalFive==5)
+  34.     {
+
+#46
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_15.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     switch(6)
+  34.     {
+
+#47
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_16.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     while(1)
+  34.     {
+
+#48
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_17.c:33: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  31.     char * data;
+  32.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  33.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  34.     for(i = 0; i < 1; i++)
+  35.     {
+
+#49
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_18.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     goto source;
+  34. source:
+
+#50
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_31.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  34.      * string copies in the sinks  */
+
+#51
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_32.c:36: error: Dead Store
+  The value written to &data (type char*) is never used.
+  34.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  35.     {
+  36.         char * data = *dataPtr1;
+              ^
+  37.         /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  38.          * string copies in the sinks  */
+
+#52
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_32.c:34: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  32.     char * *dataPtr2 = &data;
+  33.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  34.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  35.     {
+  36.         char * data = *dataPtr1;
+
+#53
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_01.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  34.      * string copies in the sinks  */
+
+#54
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_02.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     if(1)
+  34.     {
+
+#55
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_03.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     if(5==5)
+  34.     {
+
+#56
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_09.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     if(GLOBAL_CONST_TRUE)
+  34.     {
+
+#57
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_10.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     if(globalTrue)
+  34.     {
+
+#58
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_11.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     if(globalReturnsTrue())
+  34.     {
+
+#59
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_13.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     if(GLOBAL_CONST_FIVE==5)
+  34.     {
+
+#60
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_14.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     if(globalFive==5)
+  34.     {
+
+#61
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_15.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     switch(6)
+  34.     {
+
+#62
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_16.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     while(1)
+  34.     {
+
+#63
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_17.c:33: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  31.     char * data;
+  32.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  33.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  34.     for(i = 0; i < 1; i++)
+  35.     {
+
+#64
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_18.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     goto source;
+  34. source:
+
+#65
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_31.c:32: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  30.     char * data;
+  31.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  32.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  33.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  34.      * string copies in the sinks  */
+
+#66
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_32.c:36: error: Dead Store
+  The value written to &data (type char*) is never used.
+  34.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  35.     {
+  36.         char * data = *dataPtr1;
+              ^
+  37.         /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  38.          * string copies in the sinks  */
+
+#67
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_32.c:34: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  32.     char * *dataPtr2 = &data;
+  33.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  34.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  35.     {
+  36.         char * data = *dataPtr1;
+
+#68
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_declare_cpy_32.c:36: error: Dead Store
+  The value written to &data (type char*) is never used.
+  34.     char dataGoodBuffer[10+1];
+  35.     {
+  36.         char * data = *dataPtr1;
+              ^
+  37.         /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  38.          * string copies in the sinks  */
+
+#69
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_declare_loop_32.c:36: error: Dead Store
+  The value written to &data (type char*) is never used.
+  34.     char dataGoodBuffer[10+1];
+  35.     {
+  36.         char * data = *dataPtr1;
+              ^
+  37.         /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  38.          * string copies in the sinks  */
+
+#70
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_declare_memcpy_32.c:36: error: Dead Store
+  The value written to &data (type char*) is never used.
+  34.     char dataGoodBuffer[10+1];
+  35.     {
+  36.         char * data = *dataPtr1;
+              ^
+  37.         /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  38.          * string copies in the sinks  */
+
+#71
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_declare_memmove_32.c:36: error: Dead Store
+  The value written to &data (type char*) is never used.
+  34.     char dataGoodBuffer[10+1];
+  35.     {
+  36.         char * data = *dataPtr1;
+              ^
+  37.         /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  38.          * string copies in the sinks  */
+
+#72
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_declare_ncpy_32.c:36: error: Dead Store
+  The value written to &data (type char*) is never used.
+  34.     char dataGoodBuffer[10+1];
+  35.     {
+  36.         char * data = *dataPtr1;
+              ^
+  37.         /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  38.          * string copies in the sinks  */
+
+#73
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_33.cpp:36: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  34.     char * &dataRef = data;
+  35.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  36.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  37.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  38.      * string copies in the sinks  */
+
+#74
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_51a.c:35: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  33.     char * data;
+  34.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  35.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  36.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  37.      * string copies in the sinks  */
+
+#75
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_52a.c:35: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  33.     char * data;
+  34.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  35.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  36.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  37.      * string copies in the sinks  */
+
+#76
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_53a.c:35: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  33.     char * data;
+  34.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  35.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  36.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  37.      * string copies in the sinks  */
+
+#77
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_54a.c:35: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  33.     char * data;
+  34.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  35.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  36.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  37.      * string copies in the sinks  */
+
+#78
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_63a.c:35: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  33.     char * data;
+  34.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  35.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  36.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  37.      * string copies in the sinks  */
+
+#79
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_64a.c:35: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  33.     char * data;
+  34.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  35.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  36.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  37.      * string copies in the sinks  */
+
+#80
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_65a.c:37: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  35.     void (*funcPtr) (char *) = CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_65b_badSink;
+  36.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  37.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  38.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  39.      * string copies in the sinks  */
+
+#81
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_66a.c:36: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  34.     char * dataArray[5];
+  35.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  36.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  37.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  38.      * string copies in the sinks  */
+
+#82
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_33.cpp:36: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  34.     char * &dataRef = data;
+  35.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  36.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  37.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  38.      * string copies in the sinks  */
+
+#83
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_51a.c:35: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  33.     char * data;
+  34.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  35.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  36.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  37.      * string copies in the sinks  */
+
+#84
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_52a.c:35: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  33.     char * data;
+  34.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  35.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  36.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  37.      * string copies in the sinks  */
+
+#85
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_53a.c:35: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  33.     char * data;
+  34.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  35.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  36.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  37.      * string copies in the sinks  */
+
+#86
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_54a.c:35: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  33.     char * data;
+  34.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  35.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  36.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  37.      * string copies in the sinks  */
+
+#87
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_63a.c:35: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  33.     char * data;
+  34.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  35.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  36.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  37.      * string copies in the sinks  */
+
+#88
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_64a.c:35: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  33.     char * data;
+  34.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  35.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  36.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  37.      * string copies in the sinks  */
+
+#89
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_65a.c:37: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  35.     void (*funcPtr) (char *) = CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_65b_badSink;
+  36.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  37.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  38.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  39.      * string copies in the sinks  */
+
+#90
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_66a.c:36: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  34.     char * dataArray[5];
+  35.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  36.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  37.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  38.      * string copies in the sinks  */
+
+#91
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_33.cpp:36: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  34.     char * &dataRef = data;
+  35.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  36.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  37.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  38.      * string copies in the sinks  */
+
+#92
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_51a.c:35: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  33.     char * data;
+  34.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  35.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  36.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  37.      * string copies in the sinks  */
+
+#93
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_52a.c:35: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  33.     char * data;
+  34.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  35.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  36.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  37.      * string copies in the sinks  */
+
+#94
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_53a.c:35: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  33.     char * data;
+  34.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  35.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  36.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  37.      * string copies in the sinks  */
+
+#95
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_54a.c:35: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  33.     char * data;
+  34.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  35.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  36.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  37.      * string copies in the sinks  */
+
+#96
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_63a.c:35: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  33.     char * data;
+  34.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  35.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  36.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  37.      * string copies in the sinks  */
+
+#97
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_64a.c:35: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  33.     char * data;
+  34.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  35.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  36.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  37.      * string copies in the sinks  */
+
+#98
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_65a.c:37: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  35.     void (*funcPtr) (char *) = CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_65b_badSink;
+  36.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  37.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  38.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  39.      * string copies in the sinks  */
+
+#99
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_66a.c:36: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  34.     char * dataArray[5];
+  35.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  36.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  37.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  38.      * string copies in the sinks  */
+
+#100
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_33.cpp:36: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  34.     char * &dataRef = data;
+  35.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  36.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  37.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  38.      * string copies in the sinks  */
+
+#101
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_51a.c:35: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  33.     char * data;
+  34.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  35.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  36.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  37.      * string copies in the sinks  */
+
+#102
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_52a.c:35: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  33.     char * data;
+  34.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  35.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  36.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  37.      * string copies in the sinks  */
+
+#103
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_53a.c:35: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  33.     char * data;
+  34.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  35.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  36.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  37.      * string copies in the sinks  */
+
+#104
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_54a.c:35: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  33.     char * data;
+  34.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  35.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  36.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  37.      * string copies in the sinks  */
+
+#105
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_63a.c:35: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  33.     char * data;
+  34.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  35.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  36.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  37.      * string copies in the sinks  */
+
+#106
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_64a.c:35: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  33.     char * data;
+  34.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  35.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  36.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  37.      * string copies in the sinks  */
+
+#107
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_65a.c:37: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  35.     void (*funcPtr) (char *) = CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_65b_badSink;
+  36.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  37.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  38.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  39.      * string copies in the sinks  */
+
+#108
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_66a.c:36: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  34.     char * dataArray[5];
+  35.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  36.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  37.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  38.      * string copies in the sinks  */
+
+#109
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_06.c:36: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  34.     char * data;
+  35.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  36.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  37.     if(STATIC_CONST_FIVE==5)
+  38.     {
+
+#110
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_06.c:36: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  34.     char * data;
+  35.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  36.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  37.     if(STATIC_CONST_FIVE==5)
+  38.     {
+
+#111
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_06.c:36: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  34.     char * data;
+  35.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  36.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  37.     if(STATIC_CONST_FIVE==5)
+  38.     {
+
+#112
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_06.c:36: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  34.     char * data;
+  35.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  36.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  37.     if(STATIC_CONST_FIVE==5)
+  38.     {
+
+#113
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_07.c:38: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  36.     char * data;
+  37.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  38.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  39.     if(staticFive==5)
+  40.     {
+
+#114
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_34.c:39: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  37.     CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_34_unionType myUnion;
+  38.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  39.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  40.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  41.      * string copies in the sinks  */
+
+#115
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_68a.c:38: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  36.     char * data;
+  37.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  38.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  39.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  40.      * string copies in the sinks  */
+
+#116
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_07.c:38: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  36.     char * data;
+  37.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  38.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  39.     if(staticFive==5)
+  40.     {
+
+#117
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_34.c:39: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  37.     CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_34_unionType myUnion;
+  38.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  39.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  40.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  41.      * string copies in the sinks  */
+
+#118
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_68a.c:38: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  36.     char * data;
+  37.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  38.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  39.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  40.      * string copies in the sinks  */
+
+#119
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_07.c:38: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  36.     char * data;
+  37.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  38.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  39.     if(staticFive==5)
+  40.     {
+
+#120
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_34.c:39: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  37.     CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_34_unionType myUnion;
+  38.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  39.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  40.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  41.      * string copies in the sinks  */
+
+#121
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_68a.c:38: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  36.     char * data;
+  37.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  38.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  39.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  40.      * string copies in the sinks  */
+
+#122
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_07.c:38: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  36.     char * data;
+  37.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  38.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  39.     if(staticFive==5)
+  40.     {
+
+#123
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_34.c:39: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  37.     CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_34_unionType myUnion;
+  38.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  39.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  40.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  41.      * string copies in the sinks  */
+
+#124
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_68a.c:38: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  36.     char * data;
+  37.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  38.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  39.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  40.      * string copies in the sinks  */
+
+#125
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_04.c:39: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  37.     char * data;
+  38.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  39.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  40.     if(STATIC_CONST_TRUE)
+  41.     {
+
+#126
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_05.c:39: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  37.     char * data;
+  38.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  39.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  40.     if(staticTrue)
+  41.     {
+
+#127
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_04.c:39: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  37.     char * data;
+  38.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  39.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  40.     if(STATIC_CONST_TRUE)
+  41.     {
+
+#128
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_05.c:39: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  37.     char * data;
+  38.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  39.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  40.     if(staticTrue)
+  41.     {
+
+#129
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_04.c:39: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  37.     char * data;
+  38.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  39.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  40.     if(STATIC_CONST_TRUE)
+  41.     {
+
+#130
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_05.c:39: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  37.     char * data;
+  38.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  39.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  40.     if(staticTrue)
+  41.     {
+
+#131
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_04.c:39: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  37.     char * data;
+  38.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  39.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  40.     if(STATIC_CONST_TRUE)
+  41.     {
+
+#132
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_05.c:39: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  37.     char * data;
+  38.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  39.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  40.     if(staticTrue)
+  41.     {
+
+#133
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_67a.c:41: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  39.     CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_67_structType myStruct;
+  40.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  41.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  42.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  43.      * string copies in the sinks  */
+
+#134
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_67a.c:41: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  39.     CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_67_structType myStruct;
+  40.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  41.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  42.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  43.      * string copies in the sinks  */
+
+#135
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_67a.c:41: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  39.     CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_67_structType myStruct;
+  40.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  41.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  42.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  43.      * string copies in the sinks  */
+
+#136
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_67a.c:41: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  39.     CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_67_structType myStruct;
+  40.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  41.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  42.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  43.      * string copies in the sinks  */
+
+#137
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_72a.cpp:42: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  40.     vector<char *> dataVector;
+  41.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  42.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  43.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  44.      * string copies in the sinks  */
+
+#138
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_73a.cpp:42: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  40.     list<char *> dataList;
+  41.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  42.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  43.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  44.      * string copies in the sinks  */
+
+#139
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_74a.cpp:42: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  40.     map<int, char *> dataMap;
+  41.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  42.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  43.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  44.      * string copies in the sinks  */
+
+#140
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_72a.cpp:42: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  40.     vector<char *> dataVector;
+  41.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  42.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  43.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  44.      * string copies in the sinks  */
+
+#141
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_73a.cpp:42: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  40.     list<char *> dataList;
+  41.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  42.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  43.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  44.      * string copies in the sinks  */
+
+#142
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_74a.cpp:42: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  40.     map<int, char *> dataMap;
+  41.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  42.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  43.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  44.      * string copies in the sinks  */
+
+#143
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_72a.cpp:42: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  40.     vector<char *> dataVector;
+  41.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  42.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  43.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  44.      * string copies in the sinks  */
+
+#144
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_73a.cpp:42: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  40.     list<char *> dataList;
+  41.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  42.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  43.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  44.      * string copies in the sinks  */
+
+#145
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_74a.cpp:42: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  40.     map<int, char *> dataMap;
+  41.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  42.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  43.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  44.      * string copies in the sinks  */
+
+#146
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_72a.cpp:42: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  40.     vector<char *> dataVector;
+  41.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  42.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  43.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  44.      * string copies in the sinks  */
+
+#147
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_73a.cpp:42: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  40.     list<char *> dataList;
+  41.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  42.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  43.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  44.      * string copies in the sinks  */
+
+#148
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_74a.cpp:42: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  40.     map<int, char *> dataMap;
+  41.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  42.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  43.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  44.      * string copies in the sinks  */
+
+#149
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_41.c:43: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  41.     char * data;
+  42.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  43.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  44.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  45.      * string copies in the sinks  */
+
+#150
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_44.c:45: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  43.     void (*funcPtr) (char *) = badSink;
+  44.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  45.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  46.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  47.      * string copies in the sinks  */
+
+#151
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_41.c:43: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  41.     char * data;
+  42.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  43.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  44.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  45.      * string copies in the sinks  */
+
+#152
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_44.c:45: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  43.     void (*funcPtr) (char *) = badSink;
+  44.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  45.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  46.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  47.      * string copies in the sinks  */
+
+#153
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_41.c:43: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  41.     char * data;
+  42.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  43.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  44.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  45.      * string copies in the sinks  */
+
+#154
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_44.c:45: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  43.     void (*funcPtr) (char *) = badSink;
+  44.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  45.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  46.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  47.      * string copies in the sinks  */
+
+#155
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_08.c:46: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  44.     char * data;
+  45.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  46.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  47.     if(staticReturnsTrue())
+  48.     {
+
+#156
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_08.c:46: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  44.     char * data;
+  45.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  46.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  47.     if(staticReturnsTrue())
+  48.     {
+
+#157
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_08.c:46: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  44.     char * data;
+  45.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  46.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  47.     if(staticReturnsTrue())
+  48.     {
+
+#158
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_08.c:46: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  44.     char * data;
+  45.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  46.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  47.     if(staticReturnsTrue())
+  48.     {
+
+#159
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_81a.cpp:46: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  44. {
+  45.     char * data;
+  46.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  47.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  48.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#160
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_45.c:47: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  45.     char * data;
+  46.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  47.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  48.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  49.      * string copies in the sinks  */
+
+#161
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_81a.cpp:46: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  44. {
+  45.     char * data;
+  46.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  47.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  48.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#162
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_45.c:47: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  45.     char * data;
+  46.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  47.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  48.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  49.      * string copies in the sinks  */
+
+#163
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_81a.cpp:46: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  44. {
+  45.     char * data;
+  46.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  47.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  48.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#164
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_45.c:47: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  45.     char * data;
+  46.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  47.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  48.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  49.      * string copies in the sinks  */
+
+#165
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_81a.cpp:46: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  44. {
+  45.     char * data;
+  46.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  47.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  48.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#166
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_41.c:48: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  46.     char * data;
+  47.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  48.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  49.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  50.      * string copies in the sinks  */
+
+#167
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_44.c:50: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  48.     void (*funcPtr) (char *) = badSink;
+  49.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  50.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  51.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  52.      * string copies in the sinks  */
+
+#168
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_82a.cpp:47: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  45. {
+  46.     char * data;
+  47.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  48.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  49.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#169
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_82a.cpp:47: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  45. {
+  46.     char * data;
+  47.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  48.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  49.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#170
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_82a.cpp:47: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  45. {
+  46.     char * data;
+  47.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  48.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  49.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#171
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_82a.cpp:47: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  45. {
+  46.     char * data;
+  47.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  48.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  49.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#172
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_45.c:52: error: Dead Store
+  The value written to &dataGoodBuffer (type char*) is never used.
+  50.     char * data;
+  51.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+  52.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+          ^
+  53.     /* FLAW: Set a pointer to a buffer that does not leave room for a NULL terminator when performing
+  54.      * string copies in the sinks  */
+
+#173
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_63a.c:53: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  51. {
+  52.     char * data;
+  53.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  54.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  55.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#174
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_64a.c:53: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  51. {
+  52.     char * data;
+  53.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  54.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  55.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#175
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_63a.c:53: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  51. {
+  52.     char * data;
+  53.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  54.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  55.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#176
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_64a.c:53: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  51. {
+  52.     char * data;
+  53.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  54.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  55.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#177
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_63a.c:53: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  51. {
+  52.     char * data;
+  53.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  54.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  55.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#178
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_64a.c:53: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  51. {
+  52.     char * data;
+  53.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  54.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  55.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#179
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_63a.c:53: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  51. {
+  52.     char * data;
+  53.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  54.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  55.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#180
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_64a.c:53: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  51. {
+  52.     char * data;
+  53.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  54.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  55.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#181
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_51a.c:54: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  52. {
+  53.     char * data;
+  54.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  55.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  56.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#182
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_52a.c:54: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  52. {
+  53.     char * data;
+  54.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  55.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  56.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#183
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_53a.c:54: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  52. {
+  53.     char * data;
+  54.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  55.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  56.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#184
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_54a.c:54: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  52. {
+  53.     char * data;
+  54.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  55.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  56.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#185
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_01.c:54: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  52. {
+  53.     char * data;
+  54.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  55.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  56.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#186
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_51a.c:54: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  52. {
+  53.     char * data;
+  54.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  55.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  56.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#187
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_52a.c:54: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  52. {
+  53.     char * data;
+  54.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  55.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  56.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#188
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_53a.c:54: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  52. {
+  53.     char * data;
+  54.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  55.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  56.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#189
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_54a.c:54: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  52. {
+  53.     char * data;
+  54.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  55.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  56.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#190
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_01.c:54: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  52. {
+  53.     char * data;
+  54.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  55.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  56.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#191
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_51a.c:54: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  52. {
+  53.     char * data;
+  54.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  55.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  56.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#192
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_52a.c:54: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  52. {
+  53.     char * data;
+  54.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  55.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  56.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#193
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_53a.c:54: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  52. {
+  53.     char * data;
+  54.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  55.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  56.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#194
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_54a.c:54: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  52. {
+  53.     char * data;
+  54.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  55.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  56.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#195
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_01.c:54: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  52. {
+  53.     char * data;
+  54.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  55.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  56.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#196
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_51a.c:54: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  52. {
+  53.     char * data;
+  54.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  55.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  56.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#197
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_52a.c:54: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  52. {
+  53.     char * data;
+  54.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  55.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  56.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#198
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_53a.c:54: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  52. {
+  53.     char * data;
+  54.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  55.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  56.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#199
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_54a.c:54: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  52. {
+  53.     char * data;
+  54.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  55.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  56.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#200
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_65a.c:57: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  55.     char * data;
+  56.     void (*funcPtr) (char *) = CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_65b_goodG2BSink;
+  57.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  58.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  59.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#201
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_66a.c:57: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  55.     char * data;
+  56.     char * dataArray[5];
+  57.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  58.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  59.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#202
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_18.c:56: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  54. {
+  55.     char * data;
+  56.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  57.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  58.     goto source;
+
+#203
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_65a.c:57: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  55.     char * data;
+  56.     void (*funcPtr) (char *) = CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_65b_goodG2BSink;
+  57.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  58.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  59.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#204
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_66a.c:57: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  55.     char * data;
+  56.     char * dataArray[5];
+  57.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  58.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  59.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#205
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_18.c:56: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  54. {
+  55.     char * data;
+  56.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  57.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  58.     goto source;
+
+#206
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_65a.c:57: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  55.     char * data;
+  56.     void (*funcPtr) (char *) = CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_65b_goodG2BSink;
+  57.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  58.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  59.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#207
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_66a.c:57: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  55.     char * data;
+  56.     char * dataArray[5];
+  57.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  58.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  59.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#208
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_18.c:56: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  54. {
+  55.     char * data;
+  56.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  57.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  58.     goto source;
+
+#209
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_65a.c:57: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  55.     char * data;
+  56.     void (*funcPtr) (char *) = CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_65b_goodG2BSink;
+  57.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  58.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  59.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#210
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_66a.c:57: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  55.     char * data;
+  56.     char * dataArray[5];
+  57.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  58.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  59.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#211
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_02.c:57: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  55. {
+  56.     char * data;
+  57.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  58.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  59.     if(0)
+
+#212
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_03.c:57: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  55. {
+  56.     char * data;
+  57.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  58.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  59.     if(5!=5)
+
+#213
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_09.c:57: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  55. {
+  56.     char * data;
+  57.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  58.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  59.     if(GLOBAL_CONST_FALSE)
+
+#214
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_10.c:57: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  55. {
+  56.     char * data;
+  57.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  58.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  59.     if(globalFalse)
+
+#215
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_11.c:57: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  55. {
+  56.     char * data;
+  57.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  58.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  59.     if(globalReturnsFalse())
+
+#216
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_13.c:57: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  55. {
+  56.     char * data;
+  57.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  58.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  59.     if(GLOBAL_CONST_FIVE!=5)
+
+#217
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_14.c:57: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  55. {
+  56.     char * data;
+  57.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  58.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  59.     if(globalFive!=5)
+
+#218
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_02.c:57: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  55. {
+  56.     char * data;
+  57.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  58.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  59.     if(0)
+
+#219
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_03.c:57: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  55. {
+  56.     char * data;
+  57.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  58.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  59.     if(5!=5)
+
+#220
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_09.c:57: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  55. {
+  56.     char * data;
+  57.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  58.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  59.     if(GLOBAL_CONST_FALSE)
+
+#221
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_10.c:57: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  55. {
+  56.     char * data;
+  57.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  58.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  59.     if(globalFalse)
+
+#222
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_11.c:57: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  55. {
+  56.     char * data;
+  57.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  58.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  59.     if(globalReturnsFalse())
+
+#223
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_13.c:57: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  55. {
+  56.     char * data;
+  57.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  58.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  59.     if(GLOBAL_CONST_FIVE!=5)
+
+#224
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_14.c:57: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  55. {
+  56.     char * data;
+  57.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  58.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  59.     if(globalFive!=5)
+
+#225
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_02.c:57: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  55. {
+  56.     char * data;
+  57.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  58.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  59.     if(0)
+
+#226
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_03.c:57: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  55. {
+  56.     char * data;
+  57.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  58.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  59.     if(5!=5)
+
+#227
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_09.c:57: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  55. {
+  56.     char * data;
+  57.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  58.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  59.     if(GLOBAL_CONST_FALSE)
+
+#228
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_10.c:57: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  55. {
+  56.     char * data;
+  57.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  58.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  59.     if(globalFalse)
+
+#229
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_11.c:57: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  55. {
+  56.     char * data;
+  57.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  58.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  59.     if(globalReturnsFalse())
+
+#230
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_13.c:57: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  55. {
+  56.     char * data;
+  57.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  58.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  59.     if(GLOBAL_CONST_FIVE!=5)
+
+#231
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_14.c:57: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  55. {
+  56.     char * data;
+  57.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  58.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  59.     if(globalFive!=5)
+
+#232
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_68a.c:58: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  56. {
+  57.     char * data;
+  58.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  59.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  60.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#233
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_16.c:58: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  56. {
+  57.     char * data;
+  58.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  59.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  60.     while(1)
+
+#234
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_17.c:59: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  57.     int h;
+  58.     char * data;
+  59.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  60.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  61.     for(h = 0; h < 1; h++)
+
+#235
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_31.c:58: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  56. {
+  57.     char * data;
+  58.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  59.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  60.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#236
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_68a.c:58: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  56. {
+  57.     char * data;
+  58.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  59.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  60.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#237
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_16.c:58: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  56. {
+  57.     char * data;
+  58.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  59.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  60.     while(1)
+
+#238
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_17.c:59: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  57.     int h;
+  58.     char * data;
+  59.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  60.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  61.     for(h = 0; h < 1; h++)
+
+#239
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_31.c:58: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  56. {
+  57.     char * data;
+  58.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  59.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  60.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#240
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_68a.c:58: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  56. {
+  57.     char * data;
+  58.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  59.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  60.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#241
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_16.c:58: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  56. {
+  57.     char * data;
+  58.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  59.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  60.     while(1)
+
+#242
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_17.c:59: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  57.     int h;
+  58.     char * data;
+  59.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  60.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  61.     for(h = 0; h < 1; h++)
+
+#243
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_31.c:58: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  56. {
+  57.     char * data;
+  58.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  59.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  60.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#244
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_68a.c:58: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  56. {
+  57.     char * data;
+  58.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  59.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  60.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#245
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_01.c:59: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  57. {
+  58.     char * data;
+  59.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  60.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  61.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#246
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_67a.c:61: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  59.     char * data;
+  60.     CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_67_structType myStruct;
+  61.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  62.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  63.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#247
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_67a.c:61: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  59.     char * data;
+  60.     CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_67_structType myStruct;
+  61.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  62.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  63.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#248
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_67a.c:61: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  59.     char * data;
+  60.     CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_67_structType myStruct;
+  61.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  62.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  63.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#249
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_67a.c:61: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  59.     char * data;
+  60.     CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_67_structType myStruct;
+  61.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  62.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  63.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#250
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_18.c:61: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  59. {
+  60.     char * data;
+  61.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  62.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  63.     goto source;
+
+#251
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_06.c:61: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  59. {
+  60.     char * data;
+  61.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  62.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  63.     if(STATIC_CONST_FIVE!=5)
+
+#252
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_33.cpp:62: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  60.     char * data;
+  61.     char * &dataRef = data;
+  62.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  63.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  64.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#253
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_06.c:61: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  59. {
+  60.     char * data;
+  61.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  62.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  63.     if(STATIC_CONST_FIVE!=5)
+
+#254
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_33.cpp:62: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  60.     char * data;
+  61.     char * &dataRef = data;
+  62.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  63.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  64.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#255
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_06.c:61: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  59. {
+  60.     char * data;
+  61.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  62.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  63.     if(STATIC_CONST_FIVE!=5)
+
+#256
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_33.cpp:62: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  60.     char * data;
+  61.     char * &dataRef = data;
+  62.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  63.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  64.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#257
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_02.c:62: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  60. {
+  61.     char * data;
+  62.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  63.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  64.     if(0)
+
+#258
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_03.c:62: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  60. {
+  61.     char * data;
+  62.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  63.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  64.     if(5!=5)
+
+#259
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_09.c:62: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  60. {
+  61.     char * data;
+  62.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  63.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  64.     if(GLOBAL_CONST_FALSE)
+
+#260
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_10.c:62: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  60. {
+  61.     char * data;
+  62.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  63.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  64.     if(globalFalse)
+
+#261
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_11.c:62: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  60. {
+  61.     char * data;
+  62.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  63.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  64.     if(globalReturnsFalse())
+
+#262
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_13.c:62: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  60. {
+  61.     char * data;
+  62.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  63.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  64.     if(GLOBAL_CONST_FIVE!=5)
+
+#263
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_14.c:62: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  60. {
+  61.     char * data;
+  62.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  63.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  64.     if(globalFive!=5)
+
+#264
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_declare_cpy_32.c:67: error: Dead Store
+  The value written to &data (type char*) is never used.
+  65.     char dataGoodBuffer[10+1];
+  66.     {
+  67.         char * data = *dataPtr1;
+              ^
+  68.         /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+  69.          * string copies in the sinks  */
+
+#265
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_16.c:63: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  61. {
+  62.     char * data;
+  63.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  64.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  65.     while(1)
+
+#266
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_17.c:64: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  62.     int h;
+  63.     char * data;
+  64.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  65.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  66.     for(h = 0; h < 1; h++)
+
+#267
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_31.c:63: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  61. {
+  62.     char * data;
+  63.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  64.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  65.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#268
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_07.c:63: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  61. {
+  62.     char * data;
+  63.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  64.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  65.     if(staticFive!=5)
+
+#269
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_15.c:63: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  61. {
+  62.     char * data;
+  63.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  64.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  65.     switch(5)
+
+#270
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_32.c:68: error: Dead Store
+  The value written to &data (type char*) is never used.
+  66.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  67.     {
+  68.         char * data = *dataPtr1;
+              ^
+  69.         /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+  70.          * string copies in the sinks  */
+
+#271
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_32.c:65: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  63.     char * *dataPtr1 = &data;
+  64.     char * *dataPtr2 = &data;
+  65.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  66.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  67.     {
+
+#272
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_07.c:63: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  61. {
+  62.     char * data;
+  63.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  64.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  65.     if(staticFive!=5)
+
+#273
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_15.c:63: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  61. {
+  62.     char * data;
+  63.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  64.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  65.     switch(5)
+
+#274
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_32.c:68: error: Dead Store
+  The value written to &data (type char*) is never used.
+  66.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  67.     {
+  68.         char * data = *dataPtr1;
+              ^
+  69.         /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+  70.          * string copies in the sinks  */
+
+#275
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_32.c:65: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  63.     char * *dataPtr1 = &data;
+  64.     char * *dataPtr2 = &data;
+  65.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  66.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  67.     {
+
+#276
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_07.c:63: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  61. {
+  62.     char * data;
+  63.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  64.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  65.     if(staticFive!=5)
+
+#277
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_15.c:63: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  61. {
+  62.     char * data;
+  63.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  64.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  65.     switch(5)
+
+#278
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_32.c:68: error: Dead Store
+  The value written to &data (type char*) is never used.
+  66.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  67.     {
+  68.         char * data = *dataPtr1;
+              ^
+  69.         /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+  70.          * string copies in the sinks  */
+
+#279
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_32.c:65: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  63.     char * *dataPtr1 = &data;
+  64.     char * *dataPtr2 = &data;
+  65.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  66.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  67.     {
+
+#280
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_declare_memcpy_32.c:68: error: Dead Store
+  The value written to &data (type char*) is never used.
+  66.     char dataGoodBuffer[10+1];
+  67.     {
+  68.         char * data = *dataPtr1;
+              ^
+  69.         /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+  70.          * string copies in the sinks  */
+
+#281
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_declare_memmove_32.c:68: error: Dead Store
+  The value written to &data (type char*) is never used.
+  66.     char dataGoodBuffer[10+1];
+  67.     {
+  68.         char * data = *dataPtr1;
+              ^
+  69.         /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+  70.          * string copies in the sinks  */
+
+#282
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_declare_ncpy_32.c:68: error: Dead Store
+  The value written to &data (type char*) is never used.
+  66.     char dataGoodBuffer[10+1];
+  67.     {
+  68.         char * data = *dataPtr1;
+              ^
+  69.         /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+  70.          * string copies in the sinks  */
+
+#283
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_04.c:64: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  62. {
+  63.     char * data;
+  64.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  65.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  66.     if(STATIC_CONST_FALSE)
+
+#284
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_05.c:64: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  62. {
+  63.     char * data;
+  64.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  65.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  66.     if(staticFalse)
+
+#285
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_04.c:64: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  62. {
+  63.     char * data;
+  64.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  65.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  66.     if(STATIC_CONST_FALSE)
+
+#286
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_05.c:64: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  62. {
+  63.     char * data;
+  64.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  65.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  66.     if(staticFalse)
+
+#287
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_04.c:64: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  62. {
+  63.     char * data;
+  64.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  65.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  66.     if(STATIC_CONST_FALSE)
+
+#288
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_05.c:64: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  62. {
+  63.     char * data;
+  64.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  65.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  66.     if(staticFalse)
+
+#289
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_12.c:65: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  63. {
+  64.     char * data;
+  65.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  66.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  67.     if(globalReturnsTrueOrFalse())
+
+#290
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_34.c:66: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  64.     char * data;
+  65.     CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_34_unionType myUnion;
+  66.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  67.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  68.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#291
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_12.c:65: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  63. {
+  64.     char * data;
+  65.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  66.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  67.     if(globalReturnsTrueOrFalse())
+
+#292
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_34.c:66: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  64.     char * data;
+  65.     CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_34_unionType myUnion;
+  66.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  67.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  68.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#293
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_12.c:65: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  63. {
+  64.     char * data;
+  65.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  66.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  67.     if(globalReturnsTrueOrFalse())
+
+#294
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_34.c:66: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  64.     char * data;
+  65.     CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_34_unionType myUnion;
+  66.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  67.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  68.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#295
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_06.c:66: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  64. {
+  65.     char * data;
+  66.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  67.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  68.     if(STATIC_CONST_FIVE!=5)
+
+#296
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_33.cpp:67: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  65.     char * data;
+  66.     char * &dataRef = data;
+  67.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  68.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  69.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#297
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_72a.cpp:67: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  65.     char * data;
+  66.     vector<char *> dataVector;
+  67.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  68.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  69.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#298
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_73a.cpp:67: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  65.     char * data;
+  66.     list<char *> dataList;
+  67.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  68.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  69.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#299
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_74a.cpp:67: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  65.     char * data;
+  66.     map<int, char *> dataMap;
+  67.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  68.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  69.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#300
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_72a.cpp:67: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  65.     char * data;
+  66.     vector<char *> dataVector;
+  67.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  68.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  69.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#301
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_73a.cpp:67: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  65.     char * data;
+  66.     list<char *> dataList;
+  67.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  68.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  69.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#302
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_74a.cpp:67: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  65.     char * data;
+  66.     map<int, char *> dataMap;
+  67.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  68.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  69.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#303
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_72a.cpp:67: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  65.     char * data;
+  66.     vector<char *> dataVector;
+  67.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  68.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  69.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#304
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_73a.cpp:67: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  65.     char * data;
+  66.     list<char *> dataList;
+  67.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  68.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  69.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#305
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_74a.cpp:67: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  65.     char * data;
+  66.     map<int, char *> dataMap;
+  67.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  68.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  69.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#306
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_72a.cpp:67: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  65.     char * data;
+  66.     vector<char *> dataVector;
+  67.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  68.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  69.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#307
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_73a.cpp:67: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  65.     char * data;
+  66.     list<char *> dataList;
+  67.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  68.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  69.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#308
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_74a.cpp:67: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  65.     char * data;
+  66.     map<int, char *> dataMap;
+  67.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  68.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  69.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#309
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_07.c:68: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  66. {
+  67.     char * data;
+  68.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  69.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  70.     if(staticFive!=5)
+
+#310
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_15.c:68: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  66. {
+  67.     char * data;
+  68.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  69.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  70.     switch(5)
+
+#311
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_32.c:73: error: Dead Store
+  The value written to &data (type char*) is never used.
+  71.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  72.     {
+  73.         char * data = *dataPtr1;
+              ^
+  74.         /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+  75.          * string copies in the sinks  */
+
+#312
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_32.c:70: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  68.     char * *dataPtr1 = &data;
+  69.     char * *dataPtr2 = &data;
+  70.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  71.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  72.     {
+
+#313
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_declare_loop_32.c:73: error: Dead Store
+  The value written to &data (type char*) is never used.
+  71.     char dataGoodBuffer[10+1];
+  72.     {
+  73.         char * data = *dataPtr1;
+              ^
+  74.         /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+  75.          * string copies in the sinks  */
+
+#314
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_04.c:69: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  67. {
+  68.     char * data;
+  69.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  70.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  71.     if(STATIC_CONST_FALSE)
+
+#315
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_05.c:69: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  67. {
+  68.     char * data;
+  69.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  70.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  71.     if(staticFalse)
+
+#316
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_12.c:70: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  68. {
+  69.     char * data;
+  70.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  71.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  72.     if(globalReturnsTrueOrFalse())
+
+#317
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_34.c:71: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  69.     char * data;
+  70.     CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_34_unionType myUnion;
+  71.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  72.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  73.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#318
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_41.c:70: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  68. {
+  69.     char * data;
+  70.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  71.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  72.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#319
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_41.c:70: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  68. {
+  69.     char * data;
+  70.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  71.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  72.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#320
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_41.c:70: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  68. {
+  69.     char * data;
+  70.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  71.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  72.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#321
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_08.c:71: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  69. {
+  70.     char * data;
+  71.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  72.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  73.     if(staticReturnsFalse())
+
+#322
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_08.c:71: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  69. {
+  70.     char * data;
+  71.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  72.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  73.     if(staticReturnsFalse())
+
+#323
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_08.c:71: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  69. {
+  70.     char * data;
+  71.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  72.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  73.     if(staticReturnsFalse())
+
+#324
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_44.c:74: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  72.     char * data;
+  73.     void (*funcPtr) (char *) = goodG2BSink;
+  74.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  75.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  76.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#325
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_44.c:74: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  72.     char * data;
+  73.     void (*funcPtr) (char *) = goodG2BSink;
+  74.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  75.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  76.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#326
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_44.c:74: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  72.     char * data;
+  73.     void (*funcPtr) (char *) = goodG2BSink;
+  74.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  75.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  76.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#327
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_08.c:76: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  74. {
+  75.     char * data;
+  76.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  77.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  78.     if(staticReturnsFalse())
+
+#328
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_45.c:76: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  74. {
+  75.     char * data;
+  76.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  77.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  78.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#329
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_45.c:76: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  74. {
+  75.     char * data;
+  76.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  77.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  78.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#330
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_45.c:76: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  74. {
+  75.     char * data;
+  76.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  77.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  78.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#331
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_41.c:80: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  78. {
+  79.     char * data;
+  80.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  81.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  82.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#332
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_44.c:84: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  82.     char * data;
+  83.     void (*funcPtr) (char *) = goodG2BSink;
+  84.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  85.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  86.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#333
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_02.c:84: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  82. {
+  83.     char * data;
+  84.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  85.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  86.     if(1)
+
+#334
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_03.c:84: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  82. {
+  83.     char * data;
+  84.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  85.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  86.     if(5==5)
+
+#335
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_09.c:84: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  82. {
+  83.     char * data;
+  84.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  85.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  86.     if(GLOBAL_CONST_TRUE)
+
+#336
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_10.c:84: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  82. {
+  83.     char * data;
+  84.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  85.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  86.     if(globalTrue)
+
+#337
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_11.c:84: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  82. {
+  83.     char * data;
+  84.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  85.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  86.     if(globalReturnsTrue())
+
+#338
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_13.c:84: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  82. {
+  83.     char * data;
+  84.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  85.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  86.     if(GLOBAL_CONST_FIVE==5)
+
+#339
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_14.c:84: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  82. {
+  83.     char * data;
+  84.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  85.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  86.     if(globalFive==5)
+
+#340
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_02.c:84: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  82. {
+  83.     char * data;
+  84.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  85.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  86.     if(1)
+
+#341
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_03.c:84: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  82. {
+  83.     char * data;
+  84.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  85.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  86.     if(5==5)
+
+#342
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_09.c:84: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  82. {
+  83.     char * data;
+  84.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  85.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  86.     if(GLOBAL_CONST_TRUE)
+
+#343
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_10.c:84: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  82. {
+  83.     char * data;
+  84.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  85.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  86.     if(globalTrue)
+
+#344
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_11.c:84: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  82. {
+  83.     char * data;
+  84.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  85.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  86.     if(globalReturnsTrue())
+
+#345
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_13.c:84: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  82. {
+  83.     char * data;
+  84.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  85.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  86.     if(GLOBAL_CONST_FIVE==5)
+
+#346
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_14.c:84: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  82. {
+  83.     char * data;
+  84.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  85.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  86.     if(globalFive==5)
+
+#347
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_02.c:84: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  82. {
+  83.     char * data;
+  84.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  85.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  86.     if(1)
+
+#348
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_03.c:84: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  82. {
+  83.     char * data;
+  84.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  85.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  86.     if(5==5)
+
+#349
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_09.c:84: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  82. {
+  83.     char * data;
+  84.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  85.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  86.     if(GLOBAL_CONST_TRUE)
+
+#350
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_10.c:84: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  82. {
+  83.     char * data;
+  84.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  85.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  86.     if(globalTrue)
+
+#351
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_11.c:84: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  82. {
+  83.     char * data;
+  84.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  85.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  86.     if(globalReturnsTrue())
+
+#352
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_13.c:84: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  82. {
+  83.     char * data;
+  84.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  85.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  86.     if(GLOBAL_CONST_FIVE==5)
+
+#353
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_14.c:84: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  82. {
+  83.     char * data;
+  84.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  85.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  86.     if(globalFive==5)
+
+#354
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_45.c:86: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  84. {
+  85.     char * data;
+  86.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  87.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  88.     /* FIX: Set a pointer to a buffer that leaves room for a NULL terminator when performing
+
+#355
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_06.c:88: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  86. {
+  87.     char * data;
+  88.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  89.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  90.     if(STATIC_CONST_FIVE==5)
+
+#356
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_06.c:88: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  86. {
+  87.     char * data;
+  88.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  89.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  90.     if(STATIC_CONST_FIVE==5)
+
+#357
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_06.c:88: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  86. {
+  87.     char * data;
+  88.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  89.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  90.     if(STATIC_CONST_FIVE==5)
+
+#358
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_07.c:90: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  88. {
+  89.     char * data;
+  90.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  91.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  92.     if(staticFive==5)
+
+#359
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_07.c:90: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  88. {
+  89.     char * data;
+  90.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  91.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  92.     if(staticFive==5)
+
+#360
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_07.c:90: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  88. {
+  89.     char * data;
+  90.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  91.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  92.     if(staticFive==5)
+
+#361
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_04.c:91: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  89. {
+  90.     char * data;
+  91.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  92.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  93.     if(STATIC_CONST_TRUE)
+
+#362
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_05.c:91: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  89. {
+  90.     char * data;
+  91.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  92.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  93.     if(staticTrue)
+
+#363
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_15.c:91: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  89. {
+  90.     char * data;
+  91.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  92.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  93.     switch(6)
+
+#364
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_04.c:91: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  89. {
+  90.     char * data;
+  91.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  92.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  93.     if(STATIC_CONST_TRUE)
+
+#365
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_05.c:91: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  89. {
+  90.     char * data;
+  91.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  92.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  93.     if(staticTrue)
+
+#366
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_15.c:91: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  89. {
+  90.     char * data;
+  91.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  92.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  93.     switch(6)
+
+#367
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_04.c:91: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  89. {
+  90.     char * data;
+  91.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  92.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  93.     if(STATIC_CONST_TRUE)
+
+#368
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_05.c:91: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  89. {
+  90.     char * data;
+  91.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  92.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  93.     if(staticTrue)
+
+#369
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_15.c:91: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  89. {
+  90.     char * data;
+  91.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  92.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  93.     switch(6)
+
+#370
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_02.c:94: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  92. {
+  93.     char * data;
+  94.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  95.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  96.     if(1)
+
+#371
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_03.c:94: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  92. {
+  93.     char * data;
+  94.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  95.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  96.     if(5==5)
+
+#372
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_09.c:94: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  92. {
+  93.     char * data;
+  94.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  95.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  96.     if(GLOBAL_CONST_TRUE)
+
+#373
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_10.c:94: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  92. {
+  93.     char * data;
+  94.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  95.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  96.     if(globalTrue)
+
+#374
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_11.c:94: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  92. {
+  93.     char * data;
+  94.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  95.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  96.     if(globalReturnsTrue())
+
+#375
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_13.c:94: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  92. {
+  93.     char * data;
+  94.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  95.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  96.     if(GLOBAL_CONST_FIVE==5)
+
+#376
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_14.c:94: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  92. {
+  93.     char * data;
+  94.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+          ^
+  95.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  96.     if(globalFive==5)
+
+#377
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_06.c:98: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+   96. {
+   97.     char * data;
+   98.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+           ^
+   99.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  100.     if(STATIC_CONST_FIVE==5)
+
+#378
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memcpy_08.c:98: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+   96. {
+   97.     char * data;
+   98.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+           ^
+   99.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  100.     if(staticReturnsTrue())
+
+#379
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_memmove_08.c:98: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+   96. {
+   97.     char * data;
+   98.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+           ^
+   99.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  100.     if(staticReturnsTrue())
+
+#380
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_ncpy_08.c:98: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+   96. {
+   97.     char * data;
+   98.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+           ^
+   99.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  100.     if(staticReturnsTrue())
+
+#381
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_07.c:100: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+   98. {
+   99.     char * data;
+  100.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+           ^
+  101.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  102.     if(staticFive==5)
+
+#382
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_04.c:101: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+   99. {
+  100.     char * data;
+  101.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+           ^
+  102.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  103.     if(STATIC_CONST_TRUE)
+
+#383
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_05.c:101: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+   99. {
+  100.     char * data;
+  101.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+           ^
+  102.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  103.     if(staticTrue)
+
+#384
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_15.c:101: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+   99. {
+  100.     char * data;
+  101.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+           ^
+  102.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  103.     switch(6)
+
+#385
+CWE121_Stack_Based_Buffer_Overflow__CWE193_char_alloca_loop_08.c:108: error: Dead Store
+  The value written to &dataBadBuffer (type char*) is never used.
+  106. {
+  107.     char * data;
+  108.     char * dataBadBuffer = (char *)ALLOCA((10)*sizeof(char));
+           ^
+  109.     char * dataGoodBuffer = (char *)ALLOCA((10+1)*sizeof(char));
+  110.     if(staticReturnsTrue())
+
+Found 386 issues
+  Issue Type(ISSUED_TYPE_ID): #
+      Dead Store(DEAD_STORE): 386

@@ -1,0 +1,38 @@
+[39344][      debug] Loading models took 117ms
+[39344][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases
+[39344][environment] No .inferconfig file found
+[39344][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases
+[39344][environment] INFER_ARGS =   @/tmp/args.tmp.718d89
+[39344][environment] command line arguments:   infer run -j 1 -- make
+[39344][environment] Available memory at startup: 1256 MB
+[39344][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[39344][environment] Scheduler: file
+[39344][environment] Cores used: 1
+[39344][environment] Infer version v1.1.0
+[39344][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[39344][environment] 
+[39344][   progress] Capturing in make/cc mode...
+[39344][environment] Running command make with env:
+[39344][environment] (Extend((PATH /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/wrappers:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin)(INFER_OLD_PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin)))
+[39344][environment] 
+[39344][ extern err] *** capture command failed:
+*** make
+*** exited with code 2
+
+[39344][ extern err] Raised at Stdlib__scanf.bad_input in file "scanf.ml" (inlined), line 444, characters 18-40
+Called from Stdlib__scanf.scanf_bad_input in file "scanf.ml", line 1164, characters 4-75
+Called from IBase__Utils.get_available_memory_MB.scan_for_expected_output in file "src/base/Utils.ml", line 447, characters 10-86
+
+
+[39384][      phase] ============================================================
+[39384][      phase] = New infer execution begins
+[39384][      phase] ============================================================
+[39385][      debug] Sqlite write daemon: starting up
+[39384][      phase] ============================================================
+[39384][      phase] = New infer execution begins
+[39384][      phase] ============================================================
+[39384][   progress] Waiting for Sqlite write daemon to start (0.200000 seconds)
+[39384][   progress] Waiting for Sqlite write daemon to start (0.400000 seconds)
+[39384][   progress] Waiting for Sqlite write daemon to start (0.800000 seconds)
+[39384][   progress] Waiting for Sqlite write daemon to start (1.600000 seconds)
+[39384][   progress] 

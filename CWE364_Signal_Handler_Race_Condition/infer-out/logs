@@ -1,0 +1,889 @@
+[35241][      debug] Loading models took 140ms
+[35241][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35241][environment] No .inferconfig file found
+[35241][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35241][environment] INFER_ARGS =   @/tmp/args.tmp.a3f6cb
+[35241][environment] command line arguments:   infer -j 1 -- make
+[35241][environment] Available memory at startup: 1182 MB
+[35241][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[35241][environment] Scheduler: file
+[35241][environment] Cores used: 1
+[35241][environment] Infer version v1.1.0
+[35241][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[35241][environment] 
+[35241][   progress] Capturing in make/cc mode...
+[35241][environment] Running command make with env:
+[35241][environment] (Extend((PATH /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/wrappers:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin)(INFER_OLD_PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin)))
+[35241][environment] 
+
+[35243][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35243][environment] No .inferconfig file found
+[35243][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35243][environment] INFER_ARGS =   @/tmp/args.tmp.a67898
+[35243][environment] command line arguments:   gcc -c -I ../../src/testcasesupport main_linux.cpp
+[35243][environment]                           -o main_linux.o
+[35243][environment] Available memory at startup: 1147 MB
+[35243][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[35243][      debug] 
+[35243][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition/main_linux.cpp ***
+[35243][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[35243][      debug] Elapsed: 239ms.
+[35243][      debug] GC stats for capture:
+[35243][      debug]   minor_words: 4.30601e+06
+[35243][      debug]   promoted_words: 474397
+[35243][      debug]   major_words: 500297
+[35243][      debug]   minor_collections: 4
+[35243][      debug]   major_collections: 0
+[35243][      debug]   compactions: 0
+[35243][      debug]   top_heap_words: 760832
+[35243][      debug]   
+[35243][      debug] GC stats for main_process_full:
+[35243][      debug]   minor_words: 5.69805e+06
+[35243][      debug]   promoted_words: 642272
+[35243][      debug]   major_words: 688824
+[35243][      debug]   minor_collections: 18
+[35243][      debug]   major_collections: 4
+[35243][      debug]   compactions: 1
+[35243][      debug]   top_heap_words: 760832
+[35243][      debug]   
+[35243][environment] Scheduler: file
+[35243][environment] Cores used: 1
+[35243][environment] 
+[35248][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35248][environment] No .inferconfig file found
+[35248][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35248][environment] INFER_ARGS =   @/tmp/args.tmp.638013
+[35248][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[35248][environment]                           CWE364_Signal_Handler_Race_Condition__basic_01.c -o
+[35248][environment]                           CWE364_Signal_Handler_Race_Condition__basic_01.o
+[35248][environment] Available memory at startup: 1147 MB
+[35248][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[35248][      debug] 
+[35248][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_01.c ***
+[35248][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[35248][      debug] Elapsed: 163ms.
+[35248][      debug] GC stats for capture:
+[35248][      debug]   minor_words: 3.41128e+06
+[35248][      debug]   promoted_words: 445310
+[35248][      debug]   major_words: 468725
+[35248][      debug]   minor_collections: 5
+[35248][      debug]   major_collections: 0
+[35248][      debug]   compactions: 0
+[35248][      debug]   top_heap_words: 661504
+[35248][      debug]   
+[35248][      debug] GC stats for main_process_full:
+[35248][      debug]   minor_words: 4.80336e+06
+[35248][      debug]   promoted_words: 613204
+[35248][      debug]   major_words: 657271
+[35248][      debug]   minor_collections: 19
+[35248][      debug]   major_collections: 4
+[35248][      debug]   compactions: 1
+[35248][      debug]   top_heap_words: 661504
+[35248][      debug]   
+[35248][environment] Scheduler: file
+[35248][environment] Cores used: 1
+[35248][environment] 
+[35253][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35253][environment] No .inferconfig file found
+[35253][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35253][environment] INFER_ARGS =   @/tmp/args.tmp.9a712b
+[35253][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[35253][environment]                           CWE364_Signal_Handler_Race_Condition__basic_02.c -o
+[35253][environment]                           CWE364_Signal_Handler_Race_Condition__basic_02.o
+[35253][environment] Available memory at startup: 1147 MB
+[35253][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[35253][      debug] 
+[35253][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_02.c ***
+[35253][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[35253][      debug] Elapsed: 175ms.
+[35253][      debug] GC stats for capture:
+[35253][      debug]   minor_words: 3.67524e+06
+[35253][      debug]   promoted_words: 452753
+[35253][      debug]   major_words: 476941
+[35253][      debug]   minor_collections: 5
+[35253][      debug]   major_collections: 0
+[35253][      debug]   compactions: 0
+[35253][      debug]   top_heap_words: 661504
+[35253][      debug]   
+[35253][      debug] GC stats for main_process_full:
+[35253][      debug]   minor_words: 5.06733e+06
+[35253][      debug]   promoted_words: 620647
+[35253][      debug]   major_words: 665487
+[35253][      debug]   minor_collections: 19
+[35253][      debug]   major_collections: 4
+[35253][      debug]   compactions: 1
+[35253][      debug]   top_heap_words: 661504
+[35253][      debug]   
+[35253][environment] Scheduler: file
+[35253][environment] Cores used: 1
+[35253][environment] 
+[35258][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35258][environment] No .inferconfig file found
+[35258][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35258][environment] INFER_ARGS =   @/tmp/args.tmp.2056a5
+[35258][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[35258][environment]                           CWE364_Signal_Handler_Race_Condition__basic_03.c -o
+[35258][environment]                           CWE364_Signal_Handler_Race_Condition__basic_03.o
+[35258][environment] Available memory at startup: 1148 MB
+[35258][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[35258][      debug] 
+[35258][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_03.c ***
+[35258][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[35258][      debug] Elapsed: 152ms.
+[35258][      debug] GC stats for capture:
+[35258][      debug]   minor_words: 3.6809e+06
+[35258][      debug]   promoted_words: 453048
+[35258][      debug]   major_words: 477239
+[35258][      debug]   minor_collections: 5
+[35258][      debug]   major_collections: 0
+[35258][      debug]   compactions: 0
+[35258][      debug]   top_heap_words: 661504
+[35258][      debug]   
+[35258][      debug] GC stats for main_process_full:
+[35258][      debug]   minor_words: 5.07299e+06
+[35258][      debug]   promoted_words: 620942
+[35258][      debug]   major_words: 665785
+[35258][      debug]   minor_collections: 19
+[35258][      debug]   major_collections: 4
+[35258][      debug]   compactions: 1
+[35258][      debug]   top_heap_words: 661504
+[35258][      debug]   
+[35258][environment] Scheduler: file
+[35258][environment] Cores used: 1
+[35258][environment] 
+[35263][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35263][environment] No .inferconfig file found
+[35263][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35263][environment] INFER_ARGS =   @/tmp/args.tmp.fb2867
+[35263][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[35263][environment]                           CWE364_Signal_Handler_Race_Condition__basic_04.c -o
+[35263][environment]                           CWE364_Signal_Handler_Race_Condition__basic_04.o
+[35263][environment] Available memory at startup: 1147 MB
+[35263][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[35263][      debug] 
+[35263][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_04.c ***
+[35263][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[35263][      debug] Elapsed: 200ms.
+[35263][      debug] GC stats for capture:
+[35263][      debug]   minor_words: 3.70839e+06
+[35263][      debug]   promoted_words: 453548
+[35263][      debug]   major_words: 477781
+[35263][      debug]   minor_collections: 5
+[35263][      debug]   major_collections: 0
+[35263][      debug]   compactions: 0
+[35263][      debug]   top_heap_words: 661504
+[35263][      debug]   
+[35263][      debug] GC stats for main_process_full:
+[35263][      debug]   minor_words: 5.10048e+06
+[35263][      debug]   promoted_words: 621442
+[35263][      debug]   major_words: 666327
+[35263][      debug]   minor_collections: 19
+[35263][      debug]   major_collections: 4
+[35263][      debug]   compactions: 1
+[35263][      debug]   top_heap_words: 661504
+[35263][      debug]   
+[35263][environment] Scheduler: file
+[35263][environment] Cores used: 1
+[35263][environment] 
+[35268][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35268][environment] No .inferconfig file found
+[35268][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35268][environment] INFER_ARGS =   @/tmp/args.tmp.d12d00
+[35268][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[35268][environment]                           CWE364_Signal_Handler_Race_Condition__basic_05.c -o
+[35268][environment]                           CWE364_Signal_Handler_Race_Condition__basic_05.o
+[35268][environment] Available memory at startup: 1149 MB
+[35268][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[35268][      debug] 
+[35268][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_05.c ***
+[35268][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[35268][      debug] Elapsed: 169ms.
+[35268][      debug] GC stats for capture:
+[35268][      debug]   minor_words: 3.70832e+06
+[35268][      debug]   promoted_words: 453537
+[35268][      debug]   major_words: 477768
+[35268][      debug]   minor_collections: 5
+[35268][      debug]   major_collections: 0
+[35268][      debug]   compactions: 0
+[35268][      debug]   top_heap_words: 661504
+[35268][      debug]   
+[35268][      debug] GC stats for main_process_full:
+[35268][      debug]   minor_words: 5.10041e+06
+[35268][      debug]   promoted_words: 621431
+[35268][      debug]   major_words: 666314
+[35268][      debug]   minor_collections: 19
+[35268][      debug]   major_collections: 4
+[35268][      debug]   compactions: 1
+[35268][      debug]   top_heap_words: 661504
+[35268][      debug]   
+[35268][environment] Scheduler: file
+[35268][environment] Cores used: 1
+[35268][environment] 
+[35273][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35273][environment] No .inferconfig file found
+[35273][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35273][environment] INFER_ARGS =   @/tmp/args.tmp.ae70e3
+[35273][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[35273][environment]                           CWE364_Signal_Handler_Race_Condition__basic_06.c -o
+[35273][environment]                           CWE364_Signal_Handler_Race_Condition__basic_06.o
+[35273][environment] Available memory at startup: 1147 MB
+[35273][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[35273][      debug] 
+[35273][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_06.c ***
+[35273][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[35273][      debug] Elapsed: 170ms.
+[35273][      debug] GC stats for capture:
+[35273][      debug]   minor_words: 3.70625e+06
+[35273][      debug]   promoted_words: 453778
+[35273][      debug]   major_words: 478047
+[35273][      debug]   minor_collections: 5
+[35273][      debug]   major_collections: 0
+[35273][      debug]   compactions: 0
+[35273][      debug]   top_heap_words: 661504
+[35273][      debug]   
+[35273][      debug] GC stats for main_process_full:
+[35273][      debug]   minor_words: 5.09834e+06
+[35273][      debug]   promoted_words: 621672
+[35273][      debug]   major_words: 666593
+[35273][      debug]   minor_collections: 19
+[35273][      debug]   major_collections: 4
+[35273][      debug]   compactions: 1
+[35273][      debug]   top_heap_words: 661504
+[35273][      debug]   
+[35273][environment] Scheduler: file
+[35273][environment] Cores used: 1
+[35273][environment] 
+[35278][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35278][environment] No .inferconfig file found
+[35278][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35278][environment] INFER_ARGS =   @/tmp/args.tmp.a9003c
+[35278][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[35278][environment]                           CWE364_Signal_Handler_Race_Condition__basic_07.c -o
+[35278][environment]                           CWE364_Signal_Handler_Race_Condition__basic_07.o
+[35278][environment] Available memory at startup: 1148 MB
+[35278][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[35278][      debug] 
+[35278][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_07.c ***
+[35278][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[35278][      debug] Elapsed: 189ms.
+[35278][      debug] GC stats for capture:
+[35278][      debug]   minor_words: 3.7062e+06
+[35278][      debug]   promoted_words: 453758
+[35278][      debug]   major_words: 478024
+[35278][      debug]   minor_collections: 5
+[35278][      debug]   major_collections: 0
+[35278][      debug]   compactions: 0
+[35278][      debug]   top_heap_words: 661504
+[35278][      debug]   
+[35278][      debug] GC stats for main_process_full:
+[35278][      debug]   minor_words: 5.09829e+06
+[35278][      debug]   promoted_words: 621652
+[35278][      debug]   major_words: 666570
+[35278][      debug]   minor_collections: 19
+[35278][      debug]   major_collections: 4
+[35278][      debug]   compactions: 1
+[35278][      debug]   top_heap_words: 661504
+[35278][      debug]   
+[35278][environment] Scheduler: file
+[35278][environment] Cores used: 1
+[35278][environment] 
+[35283][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35283][environment] No .inferconfig file found
+[35283][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35283][environment] INFER_ARGS =   @/tmp/args.tmp.2fa091
+[35283][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[35283][environment]                           CWE364_Signal_Handler_Race_Condition__basic_08.c -o
+[35283][environment]                           CWE364_Signal_Handler_Race_Condition__basic_08.o
+[35283][environment] Available memory at startup: 1147 MB
+[35283][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[35283][      debug] 
+[35283][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_08.c ***
+[35283][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[35283][      debug] Elapsed: 168ms.
+[35283][      debug] GC stats for capture:
+[35283][      debug]   minor_words: 3.72353e+06
+[35283][      debug]   promoted_words: 453704
+[35283][      debug]   major_words: 477971
+[35283][      debug]   minor_collections: 5
+[35283][      debug]   major_collections: 0
+[35283][      debug]   compactions: 0
+[35283][      debug]   top_heap_words: 661504
+[35283][      debug]   
+[35283][      debug] GC stats for main_process_full:
+[35283][      debug]   minor_words: 5.11562e+06
+[35283][      debug]   promoted_words: 621598
+[35283][      debug]   major_words: 666517
+[35283][      debug]   minor_collections: 19
+[35283][      debug]   major_collections: 4
+[35283][      debug]   compactions: 1
+[35283][      debug]   top_heap_words: 661504
+[35283][      debug]   
+[35283][environment] Scheduler: file
+[35283][environment] Cores used: 1
+[35283][environment] 
+[35288][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35288][environment] No .inferconfig file found
+[35288][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35288][environment] INFER_ARGS =   @/tmp/args.tmp.a6c00a
+[35288][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[35288][environment]                           CWE364_Signal_Handler_Race_Condition__basic_09.c -o
+[35288][environment]                           CWE364_Signal_Handler_Race_Condition__basic_09.o
+[35288][environment] Available memory at startup: 1147 MB
+[35288][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[35288][      debug] 
+[35288][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_09.c ***
+[35288][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[35288][      debug] Elapsed: 158ms.
+[35288][      debug] GC stats for capture:
+[35288][      debug]   minor_words: 3.69357e+06
+[35288][      debug]   promoted_words: 453079
+[35288][      debug]   major_words: 477309
+[35288][      debug]   minor_collections: 5
+[35288][      debug]   major_collections: 0
+[35288][      debug]   compactions: 0
+[35288][      debug]   top_heap_words: 661504
+[35288][      debug]   
+[35288][      debug] GC stats for main_process_full:
+[35288][      debug]   minor_words: 5.08566e+06
+[35288][      debug]   promoted_words: 620973
+[35288][      debug]   major_words: 665855
+[35288][      debug]   minor_collections: 19
+[35288][      debug]   major_collections: 4
+[35288][      debug]   compactions: 1
+[35288][      debug]   top_heap_words: 661504
+[35288][      debug]   
+[35288][environment] Scheduler: file
+[35288][environment] Cores used: 1
+[35288][environment] 
+[35293][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35293][environment] No .inferconfig file found
+[35293][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35293][environment] INFER_ARGS =   @/tmp/args.tmp.8052b2
+[35293][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[35293][environment]                           CWE364_Signal_Handler_Race_Condition__basic_10.c -o
+[35293][environment]                           CWE364_Signal_Handler_Race_Condition__basic_10.o
+[35293][environment] Available memory at startup: 1148 MB
+[35293][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[35293][      debug] 
+[35293][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_10.c ***
+[35293][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[35293][      debug] Elapsed: 168ms.
+[35293][      debug] GC stats for capture:
+[35293][      debug]   minor_words: 3.69356e+06
+[35293][      debug]   promoted_words: 453071
+[35293][      debug]   major_words: 477298
+[35293][      debug]   minor_collections: 5
+[35293][      debug]   major_collections: 0
+[35293][      debug]   compactions: 0
+[35293][      debug]   top_heap_words: 661504
+[35293][      debug]   
+[35293][      debug] GC stats for main_process_full:
+[35293][      debug]   minor_words: 5.08564e+06
+[35293][      debug]   promoted_words: 620965
+[35293][      debug]   major_words: 665844
+[35293][      debug]   minor_collections: 19
+[35293][      debug]   major_collections: 4
+[35293][      debug]   compactions: 1
+[35293][      debug]   top_heap_words: 661504
+[35293][      debug]   
+[35293][environment] Scheduler: file
+[35293][environment] Cores used: 1
+[35293][environment] 
+[35298][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35298][environment] No .inferconfig file found
+[35298][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35298][environment] INFER_ARGS =   @/tmp/args.tmp.cff187
+[35298][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[35298][environment]                           CWE364_Signal_Handler_Race_Condition__basic_11.c -o
+[35298][environment]                           CWE364_Signal_Handler_Race_Condition__basic_11.o
+[35298][environment] Available memory at startup: 1147 MB
+[35298][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[35298][      debug] 
+[35298][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_11.c ***
+[35298][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[35298][      debug] Elapsed: 186ms.
+[35298][      debug] GC stats for capture:
+[35298][      debug]   minor_words: 3.69687e+06
+[35298][      debug]   promoted_words: 453517
+[35298][      debug]   major_words: 477766
+[35298][      debug]   minor_collections: 5
+[35298][      debug]   major_collections: 0
+[35298][      debug]   compactions: 0
+[35298][      debug]   top_heap_words: 661504
+[35298][      debug]   
+[35298][      debug] GC stats for main_process_full:
+[35298][      debug]   minor_words: 5.08896e+06
+[35298][      debug]   promoted_words: 621411
+[35298][      debug]   major_words: 666312
+[35298][      debug]   minor_collections: 19
+[35298][      debug]   major_collections: 4
+[35298][      debug]   compactions: 1
+[35298][      debug]   top_heap_words: 661504
+[35298][      debug]   
+[35298][environment] Scheduler: file
+[35298][environment] Cores used: 1
+[35298][environment] 
+[35303][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35303][environment] No .inferconfig file found
+[35303][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35303][environment] INFER_ARGS =   @/tmp/args.tmp.507779
+[35303][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[35303][environment]                           CWE364_Signal_Handler_Race_Condition__basic_12.c -o
+[35303][environment]                           CWE364_Signal_Handler_Race_Condition__basic_12.o
+[35303][environment] Available memory at startup: 1147 MB
+[35303][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[35303][      debug] 
+[35303][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_12.c ***
+[35303][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[35303][      debug] Elapsed: 164ms.
+[35303][      debug] GC stats for capture:
+[35303][      debug]   minor_words: 3.86555e+06
+[35303][      debug]   promoted_words: 457885
+[35303][      debug]   major_words: 482596
+[35303][      debug]   minor_collections: 5
+[35303][      debug]   major_collections: 0
+[35303][      debug]   compactions: 0
+[35303][      debug]   top_heap_words: 661504
+[35303][      debug]   
+[35303][      debug] GC stats for main_process_full:
+[35303][      debug]   minor_words: 5.25764e+06
+[35303][      debug]   promoted_words: 625779
+[35303][      debug]   major_words: 671142
+[35303][      debug]   minor_collections: 19
+[35303][      debug]   major_collections: 4
+[35303][      debug]   compactions: 1
+[35303][      debug]   top_heap_words: 661504
+[35303][      debug]   
+[35303][environment] Scheduler: file
+[35303][environment] Cores used: 1
+[35303][environment] 
+[35308][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35308][environment] No .inferconfig file found
+[35308][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35308][environment] INFER_ARGS =   @/tmp/args.tmp.3891b0
+[35308][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[35308][environment]                           CWE364_Signal_Handler_Race_Condition__basic_13.c -o
+[35308][environment]                           CWE364_Signal_Handler_Race_Condition__basic_13.o
+[35308][environment] Available memory at startup: 1146 MB
+[35308][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[35308][      debug] 
+[35308][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_13.c ***
+[35308][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[35308][      debug] Elapsed: 176ms.
+[35308][      debug] GC stats for capture:
+[35308][      debug]   minor_words: 3.70114e+06
+[35308][      debug]   promoted_words: 453378
+[35308][      debug]   major_words: 477644
+[35308][      debug]   minor_collections: 5
+[35308][      debug]   major_collections: 0
+[35308][      debug]   compactions: 0
+[35308][      debug]   top_heap_words: 661504
+[35308][      debug]   
+[35308][      debug] GC stats for main_process_full:
+[35308][      debug]   minor_words: 5.09323e+06
+[35308][      debug]   promoted_words: 621272
+[35308][      debug]   major_words: 666190
+[35308][      debug]   minor_collections: 19
+[35308][      debug]   major_collections: 4
+[35308][      debug]   compactions: 1
+[35308][      debug]   top_heap_words: 661504
+[35308][      debug]   
+[35308][environment] Scheduler: file
+[35308][environment] Cores used: 1
+[35308][environment] 
+[35313][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35313][environment] No .inferconfig file found
+[35313][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35313][environment] INFER_ARGS =   @/tmp/args.tmp.784c10
+[35313][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[35313][environment]                           CWE364_Signal_Handler_Race_Condition__basic_14.c -o
+[35313][environment]                           CWE364_Signal_Handler_Race_Condition__basic_14.o
+[35313][environment] Available memory at startup: 1147 MB
+[35313][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[35313][      debug] 
+[35313][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_14.c ***
+[35313][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[35313][      debug] Elapsed: 191ms.
+[35313][      debug] GC stats for capture:
+[35313][      debug]   minor_words: 3.70111e+06
+[35313][      debug]   promoted_words: 453376
+[35313][      debug]   major_words: 477639
+[35313][      debug]   minor_collections: 5
+[35313][      debug]   major_collections: 0
+[35313][      debug]   compactions: 0
+[35313][      debug]   top_heap_words: 661504
+[35313][      debug]   
+[35313][      debug] GC stats for main_process_full:
+[35313][      debug]   minor_words: 5.09319e+06
+[35313][      debug]   promoted_words: 621270
+[35313][      debug]   major_words: 666185
+[35313][      debug]   minor_collections: 19
+[35313][      debug]   major_collections: 4
+[35313][      debug]   compactions: 1
+[35313][      debug]   top_heap_words: 661504
+[35313][      debug]   
+[35313][environment] Scheduler: file
+[35313][environment] Cores used: 1
+[35313][environment] 
+[35318][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35318][environment] No .inferconfig file found
+[35318][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35318][environment] INFER_ARGS =   @/tmp/args.tmp.ce4343
+[35318][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[35318][environment]                           CWE364_Signal_Handler_Race_Condition__basic_15.c -o
+[35318][environment]                           CWE364_Signal_Handler_Race_Condition__basic_15.o
+[35318][environment] Available memory at startup: 1146 MB
+[35318][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[35318][      debug] 
+[35318][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_15.c ***
+[35318][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[35318][      debug] Elapsed: 175ms.
+[35318][      debug] GC stats for capture:
+[35318][      debug]   minor_words: 3.7095e+06
+[35318][      debug]   promoted_words: 454095
+[35318][      debug]   major_words: 478318
+[35318][      debug]   minor_collections: 5
+[35318][      debug]   major_collections: 0
+[35318][      debug]   compactions: 0
+[35318][      debug]   top_heap_words: 661504
+[35318][      debug]   
+[35318][      debug] GC stats for main_process_full:
+[35318][      debug]   minor_words: 5.10159e+06
+[35318][      debug]   promoted_words: 621989
+[35318][      debug]   major_words: 666864
+[35318][      debug]   minor_collections: 19
+[35318][      debug]   major_collections: 4
+[35318][      debug]   compactions: 1
+[35318][      debug]   top_heap_words: 661504
+[35318][      debug]   
+[35318][environment] Scheduler: file
+[35318][environment] Cores used: 1
+[35318][environment] 
+[35323][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35323][environment] No .inferconfig file found
+[35323][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35323][environment] INFER_ARGS =   @/tmp/args.tmp.6487a5
+[35323][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[35323][environment]                           CWE364_Signal_Handler_Race_Condition__basic_16.c -o
+[35323][environment]                           CWE364_Signal_Handler_Race_Condition__basic_16.o
+[35323][environment] Available memory at startup: 1146 MB
+[35323][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[35323][      debug] 
+[35323][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_16.c ***
+[35323][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[35323][      debug] Elapsed: 190ms.
+[35323][      debug] GC stats for capture:
+[35323][      debug]   minor_words: 3.42514e+06
+[35323][      debug]   promoted_words: 445873
+[35323][      debug]   major_words: 469355
+[35323][      debug]   minor_collections: 5
+[35323][      debug]   major_collections: 0
+[35323][      debug]   compactions: 0
+[35323][      debug]   top_heap_words: 661504
+[35323][      debug]   
+[35323][      debug] GC stats for main_process_full:
+[35323][      debug]   minor_words: 4.81722e+06
+[35323][      debug]   promoted_words: 613767
+[35323][      debug]   major_words: 657901
+[35323][      debug]   minor_collections: 19
+[35323][      debug]   major_collections: 4
+[35323][      debug]   compactions: 1
+[35323][      debug]   top_heap_words: 661504
+[35323][      debug]   
+[35323][environment] Scheduler: file
+[35323][environment] Cores used: 1
+[35323][environment] 
+[35328][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35328][environment] No .inferconfig file found
+[35328][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35328][environment] INFER_ARGS =   @/tmp/args.tmp.ff0fe1
+[35328][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[35328][environment]                           CWE364_Signal_Handler_Race_Condition__basic_17.c -o
+[35328][environment]                           CWE364_Signal_Handler_Race_Condition__basic_17.o
+[35328][environment] Available memory at startup: 1146 MB
+[35328][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[35328][      debug] 
+[35328][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_17.c ***
+[35328][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[35328][      debug] Elapsed: 210ms.
+[35328][      debug] GC stats for capture:
+[35328][      debug]   minor_words: 3.45487e+06
+[35328][      debug]   promoted_words: 447607
+[35328][      debug]   major_words: 471242
+[35328][      debug]   minor_collections: 5
+[35328][      debug]   major_collections: 0
+[35328][      debug]   compactions: 0
+[35328][      debug]   top_heap_words: 661504
+[35328][      debug]   
+[35328][      debug] GC stats for main_process_full:
+[35328][      debug]   minor_words: 4.84696e+06
+[35328][      debug]   promoted_words: 615501
+[35328][      debug]   major_words: 659788
+[35328][      debug]   minor_collections: 19
+[35328][      debug]   major_collections: 4
+[35328][      debug]   compactions: 1
+[35328][      debug]   top_heap_words: 661504
+[35328][      debug]   
+[35328][environment] Scheduler: file
+[35328][environment] Cores used: 1
+[35328][environment] 
+[35333][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35333][environment] No .inferconfig file found
+[35333][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35333][environment] INFER_ARGS =   @/tmp/args.tmp.5ab17d
+[35333][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[35333][environment]                           CWE364_Signal_Handler_Race_Condition__basic_18.c -o
+[35333][environment]                           CWE364_Signal_Handler_Race_Condition__basic_18.o
+[35333][environment] Available memory at startup: 1147 MB
+[35333][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[35333][      debug] 
+[35333][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition/CWE364_Signal_Handler_Race_Condition__basic_18.c ***
+[35333][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[35333][      debug] Elapsed: 171ms.
+[35333][      debug] GC stats for capture:
+[35333][      debug]   minor_words: 3.41854e+06
+[35333][      debug]   promoted_words: 445647
+[35333][      debug]   major_words: 469088
+[35333][      debug]   minor_collections: 5
+[35333][      debug]   major_collections: 0
+[35333][      debug]   compactions: 0
+[35333][      debug]   top_heap_words: 661504
+[35333][      debug]   
+[35333][      debug] GC stats for main_process_full:
+[35333][      debug]   minor_words: 4.81062e+06
+[35333][      debug]   promoted_words: 613541
+[35333][      debug]   major_words: 657634
+[35333][      debug]   minor_collections: 19
+[35333][      debug]   major_collections: 4
+[35333][      debug]   compactions: 1
+[35333][      debug]   top_heap_words: 661504
+[35333][      debug]   
+[35333][environment] Scheduler: file
+[35333][environment] Cores used: 1
+[35333][environment] 
+[35338][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35338][environment] No .inferconfig file found
+[35338][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35338][environment] INFER_ARGS =   @/tmp/args.tmp.d5ed8e
+[35338][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[35338][environment]                           ../../src/testcasesupport/io.c -o io.o
+[35338][environment] Available memory at startup: 1146 MB
+[35338][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[35338][      debug] 
+[35338][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/src/testcasesupport/io.c ***
+[35338][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[35338][      debug] Elapsed: 287ms.
+[35338][      debug] GC stats for capture:
+[35338][      debug]   minor_words: 4.17002e+06
+[35338][      debug]   promoted_words: 511895
+[35338][      debug]   major_words: 536972
+[35338][      debug]   minor_collections: 6
+[35338][      debug]   major_collections: 1
+[35338][      debug]   compactions: 0
+[35338][      debug]   top_heap_words: 760832
+[35338][      debug]   
+[35338][      debug] GC stats for main_process_full:
+[35338][      debug]   minor_words: 5.56206e+06
+[35338][      debug]   promoted_words: 679772
+[35338][      debug]   major_words: 725501
+[35338][      debug]   minor_collections: 20
+[35338][      debug]   major_collections: 5
+[35338][      debug]   compactions: 1
+[35338][      debug]   top_heap_words: 760832
+[35338][      debug]   
+[35338][environment] Scheduler: file
+[35338][environment] Cores used: 1
+[35338][environment] 
+[35343][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35343][environment] No .inferconfig file found
+[35343][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35343][environment] INFER_ARGS =   @/tmp/args.tmp.4fae42
+[35343][environment] command line arguments:   gcc -c -I ../../src/testcasesupport
+[35343][environment]                           ../../src/testcasesupport/std_thread.c -o
+[35343][environment]                           std_thread.o
+[35343][environment] Available memory at startup: 1147 MB
+[35343][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[35343][      debug] 
+[35343][      debug] *** Beginning capture of file /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/src/testcasesupport/std_thread.c ***
+[35343][      debug] Loading the following linters files: /opt/infer-linux64-v1.1.0/lib/infer/infer/bin/../lib/linter_rules/linters.al
+[35343][      debug] Elapsed: 160ms.
+[35343][      debug] GC stats for capture:
+[35343][      debug]   minor_words: 3.61873e+06
+[35343][      debug]   promoted_words: 452490
+[35343][      debug]   major_words: 475462
+[35343][      debug]   minor_collections: 5
+[35343][      debug]   major_collections: 0
+[35343][      debug]   compactions: 0
+[35343][      debug]   top_heap_words: 661504
+[35343][      debug]   
+[35343][      debug] GC stats for main_process_full:
+[35343][      debug]   minor_words: 5.01078e+06
+[35343][      debug]   promoted_words: 620371
+[35343][      debug]   major_words: 663995
+[35343][      debug]   minor_collections: 19
+[35343][      debug]   major_collections: 4
+[35343][      debug]   compactions: 1
+[35343][      debug]   top_heap_words: 661504
+[35343][      debug]   
+[35343][environment] Scheduler: file
+[35343][environment] Cores used: 1
+[35343][environment] 
+[35348][environment] CWD = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35348][environment] No .inferconfig file found
+[35348][environment] Project root = /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition
+[35348][environment] INFER_ARGS =   @/tmp/args.tmp.6a11e9
+[35348][environment] command line arguments:   g++ -pthread -lm main_linux.o
+[35348][environment]                           CWE364_Signal_Handler_Race_Condition__basic_01.o
+[35348][environment]                           CWE364_Signal_Handler_Race_Condition__basic_02.o
+[35348][environment]                           CWE364_Signal_Handler_Race_Condition__basic_03.o
+[35348][environment]                           CWE364_Signal_Handler_Race_Condition__basic_04.o
+[35348][environment]                           CWE364_Signal_Handler_Race_Condition__basic_05.o
+[35348][environment]                           CWE364_Signal_Handler_Race_Condition__basic_06.o
+[35348][environment]                           CWE364_Signal_Handler_Race_Condition__basic_07.o
+[35348][environment]                           CWE364_Signal_Handler_Race_Condition__basic_08.o
+[35348][environment]                           CWE364_Signal_Handler_Race_Condition__basic_09.o
+[35348][environment]                           CWE364_Signal_Handler_Race_Condition__basic_10.o
+[35348][environment]                           CWE364_Signal_Handler_Race_Condition__basic_11.o
+[35348][environment]                           CWE364_Signal_Handler_Race_Condition__basic_12.o
+[35348][environment]                           CWE364_Signal_Handler_Race_Condition__basic_13.o
+[35348][environment]                           CWE364_Signal_Handler_Race_Condition__basic_14.o
+[35348][environment]                           CWE364_Signal_Handler_Race_Condition__basic_15.o
+[35348][environment]                           CWE364_Signal_Handler_Race_Condition__basic_16.o
+[35348][environment]                           CWE364_Signal_Handler_Race_Condition__basic_17.o
+[35348][environment]                           CWE364_Signal_Handler_Race_Condition__basic_18.o
+[35348][environment]                           io.o std_thread.o -o ../../build/CWE364
+[35348][environment] Available memory at startup: 1146 MB
+[35348][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[35348][      debug] GC stats for capture:
+[35348][      debug]   minor_words: 9411
+[35348][      debug]   promoted_words: 0
+[35348][      debug]   major_words: 0
+[35348][      debug]   minor_collections: 0
+[35348][      debug]   major_collections: 0
+[35348][      debug]   compactions: 0
+[35348][      debug]   top_heap_words: 188416
+[35348][      debug]   
+[35348][      debug] GC stats for main_process_full:
+[35348][      debug]   minor_words: 1.40481e+06
+[35348][      debug]   promoted_words: 168227
+[35348][      debug]   major_words: 188879
+[35348][      debug]   minor_collections: 14
+[35348][      debug]   major_collections: 4
+[35348][      debug]   compactions: 1
+[35348][      debug]   top_heap_words: 188416
+[35348][      debug]   
+[35348][environment] Scheduler: file
+[35348][environment] Cores used: 1
+[35348][environment] [35241][      debug] GC stats for capture:
+[35241][      debug]   minor_words: 1490
+[35241][      debug]   promoted_words: 0
+[35241][      debug]   major_words: 0
+[35241][      debug]   minor_collections: 0
+[35241][      debug]   major_collections: 0
+[35241][      debug]   compactions: 0
+[35241][      debug]   top_heap_words: 760832
+[35241][      debug]   
+[35241][   progress] Found 21 source files to analyze in /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/testcases/CWE364_Signal_Handler_Race_Condition/infer-out
+[35241][   progress] /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/src/testcasesupport/io.c starting
+[35241][   progress] /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/src/testcasesupport/io.c DONE
+[35241][   progress] /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/src/testcasesupport/std_thread.c starting
+[35241][   progress] /home/hopekr/VDCT/quickly/cwe_checker_juliet_suite/src/testcasesupport/std_thread.c DONE
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_01.c starting
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_01.c DONE
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_02.c starting
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_02.c DONE
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_03.c starting
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_03.c DONE
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_04.c starting
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_04.c DONE
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_05.c starting
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_05.c DONE
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_06.c starting
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_06.c DONE
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_07.c starting
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_07.c DONE
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_08.c starting
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_08.c DONE
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_09.c starting
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_09.c DONE
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_10.c starting
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_10.c DONE
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_11.c starting
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_11.c DONE
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_12.c starting
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_12.c DONE
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_13.c starting
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_13.c DONE
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_14.c starting
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_14.c DONE
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_15.c starting
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_15.c DONE
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_16.c starting
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_16.c DONE
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_17.c starting
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_17.c DONE
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_18.c starting
+[35241][   progress] CWE364_Signal_Handler_Race_Condition__basic_18.c DONE
+[35241][   progress] main_linux.cpp starting
+[35241][   progress] main_linux.cpp DONE
+[35241][      debug] Backend stats:
+[35241][      debug]   summary_file_try_load= 1337
+[35241][      debug]   summary_read_from_disk= 53
+[35241][      debug]   summary_cache_hits= 6225 (82%)
+[35241][      debug]   summary_cache_misses= 1337
+[35241][      debug]   ondemand_procs_analyzed= 202
+[35241][      debug]   ondemand_local_cache_hits= 2982 (93%)
+[35241][      debug]   ondemand_local_cache_misses= 223
+[35241][      debug]   proc_locker_lock_time_user= 0.00000000
+[35241][      debug]   proc_locker_lock_time_sys= 0.00000000
+[35241][      debug]   proc_locker_lock_time_wall= 0.00000000
+[35241][      debug]   proc_locker_unlock_time_user= 0.00000000
+[35241][      debug]   proc_locker_unlock_time_sys= 0.00000000
+[35241][      debug]   proc_locker_unlock_time_wall= 0.00000000
+[35241][      debug]   restart_scheduler_useful_time_user= 0.00000000
+[35241][      debug]   restart_scheduler_useful_time_sys= 0.00000000
+[35241][      debug]   restart_scheduler_useful_time_wall= 0.00000000
+[35241][      debug]   restart_scheduler_total_time_user= 0.00000000
+[35241][      debug]   restart_scheduler_total_time_sys= 0.00000000
+[35241][      debug]   restart_scheduler_total_time_wall= 0.00000000
+[35241][      debug]   
+[35241][      debug] GC stats for backend_stats.:
+[35241][      debug]   minor_words: 7.92583e+08
+[35241][      debug]   promoted_words: 4.02783e+06
+[35241][      debug]   major_words: 5.40384e+06
+[35241][      debug]   minor_collections: 764
+[35241][      debug]   major_collections: 16
+[35241][      debug]   compactions: 0
+[35241][      debug]   top_heap_words: 2026496
+[35241][      debug]   
+[35241][      debug] Analysis phase finished in 2.404s
+[35241][      debug] backend_stats.scheduler_process_analysis_time_user= 1.69873000
+[35241][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.07893800
+[35241][      debug] backend_stats.scheduler_process_analysis_time_wall= 2.40364220
+[35241][      debug] GC stats for analysis_scheduler:
+[35241][      debug]   minor_words: 7.92591e+08
+[35241][      debug]   promoted_words: 4.02783e+06
+[35241][      debug]   major_words: 5.40435e+06
+[35241][      debug]   minor_collections: 764
+[35241][      debug]   major_collections: 16
+[35241][      debug]   compactions: 0
+[35241][      debug]   top_heap_words: 2026496
+[35241][      debug]   
+[35241][      debug] GC stats for report:
+[35241][      debug]   minor_words: 25595
+[35241][      debug]   promoted_words: 0
+[35241][      debug]   major_words: 0
+[35241][      debug]   minor_collections: 0
+[35241][      debug]   major_collections: 0
+[35241][      debug]   compactions: 0
+[35241][      debug]   top_heap_words: 2026496
+[35241][      debug]   
+[35241][      debug] GC stats for main_process_full:
+[35241][      debug]   minor_words: 7.94272e+08
+[35241][      debug]   promoted_words: 4.19565e+06
+[35241][      debug]   major_words: 6.09822e+06
+[35241][      debug]   minor_collections: 778
+[35241][      debug]   major_collections: 20
+[35241][      debug]   compactions: 1
+[35241][      debug]   top_heap_words: 2026496
+[35241][      debug]   
